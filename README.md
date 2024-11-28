@@ -51,7 +51,7 @@ The FIT object can later be used in all the extensions you design without needin
 The FIT object allows complex calculations from the collected data.
 
 ## APK
-Download Vinapp HkE here: https://drive.google.com/file/d/16Q6NkhXIs2RndG4zg6CYWgVEmvWM_A4v/view?usp=drive_link
+Download Vinapp HkE here: https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-HkE.apk
 
 
 
