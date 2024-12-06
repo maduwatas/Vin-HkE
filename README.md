@@ -85,6 +85,26 @@ Alerts
 
 Alerts mas
 
+### Box
+
+![Alt text](./images/box.png?raw=true "Box")
+
+Box
+
+### Mesagge
+
+![Alt text](./images/mensajes.png?raw=true "mesagge")
+
+Mesagge
+
+![Alt text](./images/mensajes2.png?raw=true "mesagge2")
+
+Mesagge mas
+
+![Alt text](./images/borrar mensaje.png?raw=true "borrar")
+
+Mesagge mas2
+
 
 
 
