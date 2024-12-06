@@ -55,7 +55,7 @@ main menu
 
 ### User profile configuration
 
-![Alt text](./images/menu.png?raw=true "Menu")
+![Alt text](./images/usuario.png?raw=true "User data")
 ![Alt text](./images/usuario.png?raw=true "User data")
 
 User data
