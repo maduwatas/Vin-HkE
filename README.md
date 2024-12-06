@@ -55,7 +55,7 @@ main menu
 
 
 
-![Alt text](./images/menu.png?raw=true "Menu")
+![Alt text](./images/user.png?raw=true "Menu")
 
 User data
 
