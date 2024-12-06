@@ -49,8 +49,10 @@ Extensions are developed to consume composables that must be built with Glance. 
 
 ### Main menu
 
-![Alt text](./images/nombre.jpg?raw=true "Title")
-esta imagen es lo que sea
+![Alt text](./images/menu.png?raw=true "Title")
+pantalla de menú inicio
+
+
 
 ## Vinapp FIT Manager
 When you start an activity, an object is also started in the Vinapp core that stores all the instant data sent by your devices in records with a FIT structure.
