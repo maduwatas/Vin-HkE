@@ -75,6 +75,18 @@ Hr data
 
 nutrition data
 
+### Alerts
+
+![Alt text](./images/alertas.png?raw=true "Alerts")
+
+Alerts
+
+![Alt text](./images/alertas2.png?raw=true "Alertsmas")
+
+Alerts mas
+
+
+
 
 
 ## Vinapp FIT Manager
