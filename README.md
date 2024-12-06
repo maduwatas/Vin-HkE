@@ -101,9 +101,9 @@ Mesagge
 
 Mesagge mas
 
-![Alt text](./images/borrar mensaje.png?raw=true "borrar")
+![Alt text](./images/borrarmensaje.png?raw=true "mesagge3")
 
-Mesagge mas2
+Mesagge mass
 
 
 
