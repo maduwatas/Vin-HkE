@@ -50,7 +50,8 @@ Extensions are developed to consume composables that must be built with Glance. 
 ### Main menu
 
 ![Alt text](./images/menu.png?raw=true "Title")
-pantalla de menú inicio
+
+pantalla de menú inicio.
 
 
 
