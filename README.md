@@ -49,9 +49,31 @@ Extensions are developed to consume composables that must be built with Glance. 
 
 ### Main menu
 
-![Alt text](./images/menu.png?raw=true "Title")
+![Alt text](./images/menu.png?raw=true "Menu")
 
-pantalla de menú inicio.
+main menu
+
+### User profile configuration
+
+![Alt text](./images/usuario.png?raw=true "User data")
+
+User data
+
+![Alt text](./images/umbrales.png?raw=true "Threshold data")
+
+Threshold data
+
+![Alt text](./images/power.png?raw=true "Power data")
+
+Power data
+
+![Alt text](./images/hr.png?raw=true "Hear rate data")
+
+Hr data
+
+![Alt text](./images/nutricion.png?raw=true "nutrition")
+
+nutrition data
 
 
 
