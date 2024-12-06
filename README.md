@@ -53,7 +53,7 @@ Extensions are developed to consume composables that must be built with Glance. 
 
 main menu
 
-### User profile configuration
+
 
 ![Alt text](./images/usuario.png?raw=true "User data")
 ![Alt text](./images/usuario.png?raw=true "User data")
