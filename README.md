@@ -12,7 +12,7 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ![Alt text](./images/usuario2.png?raw=true "User data")
 
-User data
+Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight and height are necessary to adjust the calculations of calories burned in the activity.
 
 Power threshold data | Hear rate threshold data | Nutrition data
 ------------- | ------------- | -------------
