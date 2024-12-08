@@ -50,12 +50,11 @@ Chalkboard submenu | Message list | Message detail | Remove message
 ------------- | ------------- | ------------- | -------------
 ![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
-Desde la gestion de tu pizarra de boxes puedes capturar el código QR para obtener el enlace a la web desde donde tu jefe de boxes podrá enviarte mensajes mientras estás en marcha. Añade la ventana de Pizarra de Boxes a tu perfil para recibir los mensajes. Tu jefe de boxes puede enviarte mensajes concisos con hasta 3 posibles respuestas. También puede enviarte mensajes meramente informativos, sin ninguna respuesta disponible. Cuando tu jefe de boxes te envíe un mensaje recibirás una alerta sonora especial en tu karoo. Sin necesidad de dejar de pedalear podrás moverte a tu pizarra para ver qué te ha dicho y, si procede, envíale una respuesta.
+From the management of your pit board you can capture the QR code to obtain the link to the website from where your pit boss can send you messages while you are on the go. Add the Pit Chalkboard window to your profile to receive messages. Your pit boss can send you concise messages with up to 3 possible responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your board to see what it has told you and, if applicable, send it a response.
 
-En la ventana de gestión de la app tienes además acceso a la historia de mensajes que has intercambiado con tu jefe de boxes en las últimas 24 horas mientras él o ella no los borren. 
+In the management window of the app you also have access to the history of messages that you have exchanged with your pit boss in the last 24 hours as long as he or she does not delete them.
 
 ### Vinapp Workout
-
 
 Karoo workout | Vinapp library | Manual workout selection 
 ------------- | ------------- | ------------- 
@@ -117,6 +116,24 @@ A calories consumpiton estimation hear rate based
         <td width="50%">Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.</td>
     </tr>
 </table>
+
+
+## Workout execution
+
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="50%">
+Vinapp's workout execution screen shows you all the relevant information about your structured training. At this time only power workouts are implemented, but soon it will also be available for heart rate based workouts. 
+        Before starting the workout you will be able to see its graphic design. Once you start the workout, the entire screen is used to show current, previous and next goal, action buttons and power, cadence, pulse and torque data, as well as the average data in each interval. 
+        The action buttons allow you to raise or lower the target in line, as well as navigate forward and backward intervals.
+        Next to the target power data you will see arrow icons and color codes appear that will indicate if you are below or above the target zone.
+        The screen has audible alerts of interval change.</td>
+        
+    </tr>
+</table>
+
+
 
 
 ## Box Chalkboard 
