@@ -57,15 +57,25 @@ Workout
 
 # Extension widgets
 
-## Calories estimated by Heart Rate
+## Calories estimated by Heart Rate 
+
+A calories consumpiton estimation hear rate based
 
 ## Graphical Power
 
+Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence and heart rate are secundary data for this widget.
+
 ## Graphical Hear rate
+
+Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, and cadence are secundary data for this widget.
 
 ## Graphical Power balance
 
+Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right
+
 ## Calorie consumption
+
+Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.
 
 ## Box Chalkboard 
 
