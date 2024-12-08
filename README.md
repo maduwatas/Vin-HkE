@@ -1,6 +1,64 @@
 # Vinapp HkE
 
-Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices.
+Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices. Tested in Hammerhead K2 and K3 devices.
+
+# HkE app Navigation
+
+### Main menu
+
+![Alt text](./images/menu.png?raw=true "Menu")
+
+main menu
+
+### User profile configuration
+
+![Alt text](./images/usuario2.png?raw=true "User data")
+
+User data
+
+Power threshold data | Hear rate threshold data | Nutrition data
+------------- | ------------- | -------------
+![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
+
+### Alerts
+
+Alert list | Create or update alert 
+------------- | -------------
+![](./images/alertas.png?raw=true "Alerts") | ![](./images/alertas2.png?raw=true "Alertsmas")
+
+Alerts mas
+
+### Box chalkboard
+
+Chalkboard submenu | Message list | Message detail | Remove message
+------------- | ------------- | ------------- | -------------
+
+![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
+
+Mesagge mass
+
+### Vinapp Workout
+
+![Alt text](./images/workout.png?raw=true "workout")
+
+Workout
+
+
+# Extension widgets
+
+## Calories estimated by Heart Rate
+
+## Graphical Power
+
+## Graphical Hear rate
+
+## Graphical Power balance
+
+## Calorie consumption
+
+## Box Chalkboard 
+
+# SDK Implementation details
 
 It is necessary to have the dependency on Hammerhead extensions for Vinapp HkE to work.
 
@@ -30,7 +88,7 @@ Here we indicate which class must be executed to start your extension and in whi
 ## HammerheadExtension main class
 When the Vin HkE extension starts up it queries your user profile in the karoo, sets listeners for your activity status, starts collecting data from your devices and stores it in a singleton object, the DeviceHandler.
 
-## extension_info File
+## File extension_info
 In this file you indicate the data fields that your extension includes. For each field you include you must indicate a name, description and an icon. The fields in which you are only going to show a numerical value will be graphical false, the rest will be graphical true
 Finally, you must indicate the typeId attribute with a **unique identifier** that will help karoo identify which view it should show when the user selects this field. For example
 
@@ -44,83 +102,6 @@ extension: String,
 ## Views
 Extension views are implemented by two classes. The Typo class collects the data and updates the view's Composable. The Composable class creates the view itself from data collected directly by its associated type.
 Extensions are developed to consume composables that must be built with Glance. In my example I have used Glance only to return a container in which I insert Remoteviews developed in the classic way, that is, with xml layouts. I have taken this option because it is the one I master, but the normal thing would be to use glance. One of the problems with my approach is that you have to control the theme manually, to change the colors of the texts.
-
-## Navigation
-
-### Main menu
-
-![Alt text](./images/menu.png?raw=true "Menu")
-
-main menu
-
-### User profile configuration
-
-
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-![Alt text](./images/usuario2.png?raw=true "User data")
-
-User data
-
-![Alt text](./images/umbrales.png?raw=true "Threshold data")
-
-Threshold data
-
-![Alt text](./images/power.png?raw=true "Power data")
-
-Power data
-
-![Alt text](./images/hr.png?raw=true "Hear rate data")
-
-Hr data
-
-![Alt text](./images/nutricion.png?raw=true "nutrition")
-
-nutrition data
-
-### Alerts
-
-![Alt text](./images/alertas.png?raw=true "Alerts")
-
-Alerts
-
-![Alt text](./images/alertas2.png?raw=true "Alertsmas")
-
-Alerts mas
-
-### Box
-
-![Alt text](./images/box.png?raw=true "Box")
-
-Box
-
-### Mesagge
-
-![Alt text](./images/mensajes.png?raw=true "mesagge")
-
-Mesagge
-
-![Alt text](./images/mensajes2.png?raw=true "mesagge2")
-
-Mesagge mas
-
-![Alt text](./images/borrarMensaje.png?raw=true "mesagge3")
-
-Mesagge mass
-
-### Workout
-
-![Alt text](./images/workout.png?raw=true "workout")
-
-Workout
-
-
-
 
 
 ## Vinapp FIT Manager
