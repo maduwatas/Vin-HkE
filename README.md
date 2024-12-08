@@ -59,7 +59,7 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
 
 # Extension widgets
 
-![](./images/profileHkE.png?raw=true "Vin for Hammerhead karoo Extension data fields")
+![](./images/profileHke.png?raw=true "Vin for Hammerhead karoo Extension data fields")
 
 In your karoo's profile window you will see all the additional fields that the Vin Extension provides for your karoo. You can choose several graphic fields and a simple text field with calories burned estimated from heart rate.
 
