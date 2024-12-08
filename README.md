@@ -6,6 +6,8 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ### Main menu
 
+<img src="./images/menu.png" width="200" />
+
 ![Alt text](./images/menu.png?raw=true "Menu")
 
 ### User profile configuration
