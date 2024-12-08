@@ -121,9 +121,9 @@ A calories consumpiton estimation hear rate based
 
 ## Box Chalkboard 
 
-Chalkboard question | Question answered 
-------------- | ------------- 
-<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" />
+Chalkboard question | Question answered | Remote Box
+------------- | ------------- | ------------- 
+<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" /> | <img src="./images/pantallaboxes.jpg" width="200" />
 
 This is the most special functionality of Vin HkE. By inserting this screen in your profile you can receive the messages that your team sends you while you are en route. You will be able to receive important information without having to stop. Your cashier manager can send you up to 3 different options so you can respond. I'm on pk 53, what do you need? -> WATER, WATER AND GEL, NOTHING. Your boss will have everything ready when you arrive. How important is it for you to know how much you get out of your rival? With the box board your boss will be able to take time when you pass and inform you immediately as soon as your rival passes.
 
