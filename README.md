@@ -56,11 +56,14 @@ En la ventana de gestión de la app tienes además acceso a la historia de mensa
 
 ### Vinapp Workout
 
-<img src="./images/workout.png" width="200" />
+
+Karoo workout | Vinapp library | Manual workout selection 
+------------- | ------------- | ------------- 
+<img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" />
 
 Workout widget allows to execute Vinapp workouts. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
 
-Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic and sync it in HkE.
+Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
 
 
 # Extension widgets
