@@ -8,7 +8,7 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 <img src="./images/menu.png" width="200" />
 
-![Alt text](./images/menu.png?raw=true "Menu")
+Main menu provides access to user settings and configuration of basic parts of the application.
 
 ### User profile configuration
 
@@ -20,9 +20,9 @@ Some data is imported from the karoo user profile. This data is not editable, ot
 
 ### Alerts
 
-Alert list | Create or update alert 
-------------- | -------------
-<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" />
+Alert list | Create or update alert | Delete alert
+------------- | ------------- | -------------
+<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/alertsDelete.png" width="200" /> 
 
 Vin HkE allows you to configure different alerts with sound warnings and pop-up texts. 
 
@@ -42,13 +42,17 @@ The alert types available are as follow:
 * Calories burned
 * Grams of Carbohydrates burned
 
+Do you want more? Ask me!
+
 ### Box chalkboard
 
 Chalkboard submenu | Message list | Message detail | Remove message
 ------------- | ------------- | ------------- | -------------
 ![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
-Mesagge mass
+Desde la gestion de tu pizarra de boxes puedes capturar el código QR para obtener el enlace a la web desde donde tu jefe de boxes podrá enviarte mensajes mientras estás en marcha. Añade la ventana de Pizarra de Boxes a tu perfil para recibir los mensajes. Tu jefe de boxes puede enviarte mensajes concisos con hasta 3 posibles respuestas. También puede enviarte mensajes meramente informativos, sin ninguna respuesta disponible. Cuando tu jefe de boxes te envíe un mensaje recibirás una alerta sonora especial en tu karoo. Sin necesidad de dejar de pedalear podrás moverte a tu pizarra para ver qué te ha dicho y, si procede, envíale una respuesta.
+
+En la ventana de gestión de la app tienes además acceso a la historia de mensajes que has intercambiado con tu jefe de boxes en las últimas 24 horas mientras él o ella no los borren. 
 
 ### Vinapp Workout
 
@@ -75,29 +79,54 @@ A calories consumpiton estimation hear rate based
 
 ## Graphical Power
 
-<img src="./images/profilePower.png" width="200" />
-
-Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence and heart rate are secundary data for this widget.
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profilePower.png" width="200" /></td>
+        <td width="50%">Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence (if exists) and heart rate (if exists) are secundary data for this widget.</td>
+    </tr>
+</table>
+ | 
 
 ## Graphical Hear rate
 
-<img src="./images/profileHr.png" width="200" />
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileHr.png" width="200" /></td>
+        <td width="50%">Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, power (if exists) and cadence (if exists) are secundary data for this widget.</td>
+    </tr>
+</table>
 
-Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, and cadence are secundary data for this widget.
 
 ## Graphical Power balance
 
-<img src="./images/profileBalance.png" width="200" />
-
-Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileBalance.png" width="200" /></td>
+        <td width="50%">Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right.</td>
+    </tr>
+</table>
 
 ## Calorie consumption
 
-<img src="./images/profileCalories.png" width="200" />
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="50%">Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.</td>
+    </tr>
+</table>
 
-Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.
 
 ## Box Chalkboard 
+
+Chalkboard question | Question answered 
+------------- | ------------- 
+<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" />
+
+This is the most special functionality of Vin HkE. By inserting this screen in your profile you can receive the messages that your team sends you while you are en route. You will be able to receive important information without having to stop. Your cashier manager can send you up to 3 different options so you can respond. I'm on pk 53, what do you need? -> WATER, WATER AND GEL, NOTHING. Your boss will have everything ready when you arrive. How important is it for you to know how much you get out of your rival? With the box board your boss will be able to take time when you pass and inform you immediately as soon as your rival passes.
+
+It is necessary that your Karoo has access to the internet for the board to work. You can use both the K2 SIM card and the Wi-Fi connection to your mobile phone provided by both the K2 and the K3. 
+
+We have many ideas to improve this functionality in the future, Bluetooth connection, allowing an entire team to coordinate from a tablet, karoo-karoo connection... this has only just begun.
 
 # SDK Implementation details
 
