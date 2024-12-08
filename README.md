@@ -10,21 +10,30 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ### User profile configuration
 
-![Alt text](./images/usuario2.png?raw=true "User data")
 
-Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight and height are necessary to adjust the calculations of calories burned in the activity.
 
-Power threshold data | Hear rate threshold data | Nutrition data
-------------- | ------------- | -------------
-![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
+
+
+User profile | Power threshold data | Hear rate threshold data | Nutritional data
+------------- | ------------- | ------------- | -------------
+![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
+
+Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations, for different intensities.
 
 ### Alerts
 
 Alert list | Create or update alert 
 ------------- | -------------
 ![](./images/alertas.png?raw=true "Alerts") | ![](./images/alertas2.png?raw=true "Alertsmas")
+Vin HkE allows you to configure different alerts with sound warnings and pop-up texts. 
 
-Alerts mas
+Using the + button the user can add a new alert.
+
+By clicking on a pre-existing alert it is possible to modify it. Within the detail window of an alert, the X button exits without saving the changes.
+
+Existing alerts can be activated or deactivated by pressing the bell button.
+
+To delete an alert, long press and when the delete icon appears, press it.
 
 ### Box chalkboard
 
