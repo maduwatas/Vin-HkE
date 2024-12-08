@@ -32,7 +32,6 @@ Alerts mas
 
 Chalkboard submenu | Message list | Message detail | Remove message
 ------------- | ------------- | ------------- | -------------
-
 ![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
 Mesagge mass
