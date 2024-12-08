@@ -50,17 +50,19 @@ Chalkboard submenu | Message list | Message detail | Remove message
 ------------- | ------------- | ------------- | -------------
 ![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
-Desde la gestion de tu pizarra de boxes puedes capturar el código QR para obtener el enlace a la web desde donde tu jefe de boxes podrá enviarte mensajes mientras estás en marcha. Añade la ventana de Pizarra de Boxes a tu perfil para recibir los mensajes. Tu jefe de boxes puede enviarte mensajes concisos con hasta 3 posibles respuestas. También puede enviarte mensajes meramente informativos, sin ninguna respuesta disponible. Cuando tu jefe de boxes te envíe un mensaje recibirás una alerta sonora especial en tu karoo. Sin necesidad de dejar de pedalear podrás moverte a tu pizarra para ver qué te ha dicho y, si procede, envíale una respuesta.
+From the management of your pit board you can capture the QR code to obtain the link to the website from where your pit boss can send you messages while you are on the go. Add the Pit Chalkboard window to your profile to receive messages. Your pit boss can send you concise messages with up to 3 possible responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your board to see what it has told you and, if applicable, send it a response.
 
-En la ventana de gestión de la app tienes además acceso a la historia de mensajes que has intercambiado con tu jefe de boxes en las últimas 24 horas mientras él o ella no los borren. 
+In the management window of the app you also have access to the history of messages that you have exchanged with your pit boss in the last 24 hours as long as he or she does not delete them.
 
 ### Vinapp Workout
 
-<img src="./images/workout.png" width="200" />
+Karoo workout | Vinapp library | Manual workout selection 
+------------- | ------------- | ------------- 
+<img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" />
 
 Workout widget allows to execute Vinapp workouts. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
 
-Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic and sync it in HkE.
+Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
 
 
 # Extension widgets
@@ -116,11 +118,29 @@ A calories consumpiton estimation hear rate based
 </table>
 
 
+## Workout execution
+
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="50%">
+Vinapp's workout execution screen shows you all the relevant information about your structured training. At this time only power workouts are implemented, but soon it will also be available for heart rate based workouts. 
+        Before starting the workout you will be able to see its graphic design. Once you start the workout, the entire screen is used to show current, previous and next goal, action buttons and power, cadence, pulse and torque data, as well as the average data in each interval. 
+        The action buttons allow you to raise or lower the target in line, as well as navigate forward and backward intervals.
+        Next to the target power data you will see arrow icons and color codes appear that will indicate if you are below or above the target zone.
+        The screen has audible alerts of interval change.</td>
+        
+    </tr>
+</table>
+
+
+
+
 ## Box Chalkboard 
 
-Chalkboard question | Question answered 
-------------- | ------------- 
-<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" />
+Chalkboard question | Question answered | Remote Box
+------------- | ------------- | ------------- 
+<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" /> | <img src="./images/pantallaboxes.jpg" width="200" />
 
 This is the most special functionality of Vin HkE. By inserting this screen in your profile you can receive the messages that your team sends you while you are en route. You will be able to receive important information without having to stop. Your cashier manager can send you up to 3 different options so you can respond. I'm on pk 53, what do you need? -> WATER, WATER AND GEL, NOTHING. Your boss will have everything ready when you arrive. How important is it for you to know how much you get out of your rival? With the box board your boss will be able to take time when you pass and inform you immediately as soon as your rival passes.
 
