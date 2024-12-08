@@ -89,8 +89,6 @@ A calories consumpiton estimation hear rate based
 
 ## Graphical Hear rate
 
-<img src="./images/profileHr.png" width="200" />
-
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/profileHr.png" width="200" /></td>
@@ -103,18 +101,26 @@ A calories consumpiton estimation hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/profileHr.png" width="200" /></td>
+        <td width="50%" ><img src="./images/profileBalance.png" width="200" /></td>
         <td width="50%">Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right.</td>
     </tr>
 </table>
 
 ## Calorie consumption
 
-<img src="./images/profileCalories.png" width="200" />
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="50%">Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.</td>
+    </tr>
+</table>
 
-Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.
 
 ## Box Chalkboard 
+
+Chalkboard question | Question answered 
+------------- | ------------- 
+<img src="./images/pregunta.png" width="200" /> | <img src="./images/respuesta.png" width="200" />
 
 This is the most special functionality of Vin HkE. By inserting this screen in your profile you can receive the messages that your team sends you while you are en route. You will be able to receive important information without having to stop. Your cashier manager can send you up to 3 different options so you can respond. I'm on pk 53, what do you need? -> WATER, WATER AND GEL, NOTHING. Your boss will have everything ready when you arrive. How important is it for you to know how much you get out of your rival? With the box board your boss will be able to take time when you pass and inform you immediately as soon as your rival passes.
 
