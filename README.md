@@ -10,10 +10,6 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ### User profile configuration
 
-
-
-
-
 User profile | Power threshold data | Hear rate threshold data | Nutritional data
 ------------- | ------------- | ------------- | -------------
 ![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
@@ -35,6 +31,14 @@ By clicking on a pre-existing alert it is possible to modify it. Within the deta
 Existing alerts can be activated or deactivated by pressing the bell button.
 
 To delete an alert, long press and when the delete icon appears, press it.
+
+The alert types available are as follow:
+
+* Time
+* Maximum pulse
+* Maximum power
+* Calories burned
+* Grams of Carbohydrates burned
 
 ### Box chalkboard
 
