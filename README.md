@@ -55,6 +55,14 @@ main menu
 
 ### User profile configuration
 
+
+###Tables
+                    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
+
 ![Alt text](./images/usuario2.png?raw=true "User data")
 
 User data
