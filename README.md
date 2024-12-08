@@ -6,6 +6,8 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ### Main menu
 
+<img src="./images/menu.png" width="200" />
+
 ![Alt text](./images/menu.png?raw=true "Menu")
 
 ### User profile configuration
@@ -20,7 +22,7 @@ Some data is imported from the karoo user profile. This data is not editable, ot
 
 Alert list | Create or update alert 
 ------------- | -------------
-![](./images/alertas.png?raw=true "Alerts") | ![](./images/alertas2.png?raw=true "Alertsmas")
+<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" />
 
 Vin HkE allows you to configure different alerts with sound warnings and pop-up texts. 
 
@@ -50,7 +52,7 @@ Mesagge mass
 
 ### Vinapp Workout
 
-![Alt text](./images/workout.png?raw=true "workout")
+<img src="./images/workout.png" width="200" />
 
 Workout widget allows to execute Vinapp workouts. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
 
@@ -59,7 +61,7 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
 
 # Extension widgets
 
-![](./images/profileHke.png?raw=true "Vin for Hammerhead karoo Extension data fields")
+<img src="./images/profileHke.png" width="200" />
 
 In your karoo's profile window you will see all the additional fields that the Vin Extension provides for your karoo. You can choose several graphic fields and a simple text field with calories burned estimated from heart rate.
 
@@ -73,25 +75,25 @@ A calories consumpiton estimation hear rate based
 
 ## Graphical Power
 
-![](./images/profilePower.png?raw=true "Power widget")
+<img src="./images/profilePower.png" width="200" />
 
 Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence and heart rate are secundary data for this widget.
 
 ## Graphical Hear rate
 
-![](./images/profileHr.png?raw=true "Hr widget")
+<img src="./images/profileHr.png" width="200" />
 
 Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, and cadence are secundary data for this widget.
 
 ## Graphical Power balance
 
-![](./images/profileBalance.png?raw=true "Power balance widget")
+<img src="./images/profileBalance.png" width="200" />
 
 Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right
 
 ## Calorie consumption
 
-![](./images/profileCalories.png?raw=true "Calories consumption widget")
+<img src="./images/profileCalories.png" width="200" />
 
 Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.
 
