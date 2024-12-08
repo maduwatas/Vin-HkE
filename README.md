@@ -59,23 +59,39 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
 
 # Extension widgets
 
+![](./images/profileHkE.png?raw=true "Vin for Hammerhead karoo Extension data fields")
+
+In your karoo's profile window you will see all the additional fields that the Vin Extension provides for your karoo. You can choose several graphic fields and a simple text field with calories burned estimated from heart rate.
+
+For the graphic fields of power, pulse, calories consumed and power balance, we recommend choosing the single row layout with two free fields and the Vin HkE graphic field below.
+
+For the Pit Board you must choose a full screen graphic field.
+
 ## Calories estimated by Heart Rate 
 
 A calories consumpiton estimation hear rate based
 
 ## Graphical Power
 
+![](./images/profilePower.png?raw=true "Power widget")
+
 Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence and heart rate are secundary data for this widget.
 
 ## Graphical Hear rate
+
+![](./images/profileHr.png?raw=true "Hr widget")
 
 Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, and cadence are secundary data for this widget.
 
 ## Graphical Power balance
 
+![](./images/profileBalance.png?raw=true "Power balance widget")
+
 Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right
 
 ## Calorie consumption
+
+![](./images/profileCalories.png?raw=true "Calories consumption widget")
 
 Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.
 
@@ -86,8 +102,6 @@ Complete data caloric consumption widget. Shows instant caloric consumption spee
 It is necessary to have the dependency on Hammerhead extensions for Vinapp HkE to work.
 
 implementation("io.hammerhead:karoo-ext:1.x.y")
-
-At the time of writing this document the extensions library is not public, so the configuration files load a local lib that is not included in this git.
 
 ## Basic mechanics
 When your karoo starts up, look in the manifests of the apps you have installed for the definition of the extension service.
