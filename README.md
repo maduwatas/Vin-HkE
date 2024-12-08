@@ -25,6 +25,7 @@ Some data is imported from the karoo user profile. This data is not editable, ot
 Alert list | Create or update alert 
 ------------- | -------------
 ![](./images/alertas.png?raw=true "Alerts") | ![](./images/alertas2.png?raw=true "Alertsmas")
+
 Vin HkE allows you to configure different alerts with sound warnings and pop-up texts. 
 
 Using the + button the user can add a new alert.
