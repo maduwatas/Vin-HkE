@@ -2,6 +2,20 @@
 
 Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices. Tested in Hammerhead K2 and K3 devices.
 
+## Installation
+
+Currently, Hammerhead has not yet released an on-device app store for easy installation of apps. Until then, you can sideload the app.
+
+* Download the Vin-HkE.apk from the latest release page.
+
+      https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-HkE.apk
+* Prepare your Karoo for sideloading by following this step-by-step guide
+
+      https://www.dcrainmaker.com/2021/02/how-to-sideload-android-apps-on-your-hammerhead-karoo-1-karoo-2.html
+* Install the app using the command adb install Vin-HkE.apk.
+
+ After install you can see the Vin HkE main menu.
+
 # HkE app Navigation
 
 ### Main menu
