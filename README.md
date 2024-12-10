@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This is a beta version. Please, be patient if find any bug and report it.
+
 # Vinapp HkE
 
 Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices. Tested in Hammerhead K2 and K3 devices.
