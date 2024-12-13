@@ -137,7 +137,7 @@ A calories consumpiton estimation hear rate based
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/widgetWorkout.png" width="200" /></td>
-        <td width="50%">Vinapp's workout execution screen shows you all the relevant information about your structured training. At this time only power workouts are implemented, but soon it will also be available for heart rate based workouts. 
+        <td width="50%">Vinapp's workout execution screen shows you all the relevant information about your structured training. Workout execution power based or heart rate based are implemented. 
         Before starting the workout you will be able to see its graphic design. Once you start the workout, the entire screen is used to show current, previous and next goal, action buttons and power, cadence, pulse and torque data, as well as the average data in each interval. 
         The action buttons allow you to raise or lower the target in line, as well as navigate forward and backward intervals.
         Next to the target power data you will see arrow icons and color codes appear that will indicate if you are below or above the target zone.
