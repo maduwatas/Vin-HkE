@@ -25,7 +25,7 @@ If companion app does not install HkE for your device can follow this tutorial:
 
 ### Main menu
 
-<img src="./images/menu.png" width="200" />
+<img src="./images/main.png" width="200" />
 
 Main menu provides access to user settings and configuration of basic functionalities of Vin HkE.
 
@@ -33,7 +33,7 @@ Main menu provides access to user settings and configuration of basic functional
 
 User profile | Power threshold data | Hear rate threshold data | Nutritional data
 ------------- | ------------- | ------------- | -------------
-![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
+![](./images/userProfile.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
 Some data is imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
@@ -65,9 +65,9 @@ Do you want more? Ask me!
 
 ### Pit board
 
-Chalkboard submenu | Message list | Remove message
-------------- | ------------- | ------------- 
-![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
+Chalkboard submenu | QR | Message list | Remove message
+------------- | ------------- | ------------- | ------------- 
+<img src="./images/pitboard.png" width="200" /> | <img src="./images/qr.png" width="200" /> | <img src="./images/mensajesPit.png" width="200" /> | <img src="./images/borrarMensaje.png" width="200" />
 
 In the pit board window you can capture a QR code to obtain a link to the website from where your pit boss can manage the message board for you, while you are on the go. Add a Pit board widget to your profile to receive messages on real time while you have internet connection. Your pit boss can send you concise messages with up to 3 possible preconfigured responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your pit board widget to see what it has told you and, if applicable, send it a response. You don't need open HkE app, pit board is a widget inside your ride profile.
 
