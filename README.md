@@ -103,6 +103,9 @@ You can decide use Vinapp directly like workout executor. Vinapp have a powerful
 
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
 
+You can download Vinapp for karoo with Extensions SDK here: 
+
+https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-release.apk
 
 # Extension widgets
 
