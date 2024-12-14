@@ -111,15 +111,17 @@ https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-release.apk
 
 <img src="./images/profileHke.png" width="200" />
 
-In your karoo's profile window you will see all the additional fields that the Vin Extension provides for your karoo. You can choose several graphic fields and a simple text field with calories burned estimated from heart rate.
+In your karoo's profile window you will see all the additional fields that the Vin HkE provides for your karoo. You can choose several graphic fields and a simple text field with calories burned estimated from heart rate.
 
-For the graphic fields of power, pulse, calories consumed and power balance, we recommend choosing the single row layout with two free fields and the Vin HkE graphic field below.
+For the graphic fields of power, heart rate, calories consumed and power balance, we recommend choosing the single row layout with two free fields and the Vin HkE graphic field below.
 
-For the Pit Board you must choose a full screen graphic field.
+Power balance widget can be integrated with 4 additional standard fields.
+
+For the Pit Board or workout widget you must choose a full screen graphic field.
 
 ## Calories estimated by Heart Rate 
 
-A calories consumpiton estimation hear rate based
+A single field with calories consumpiton estimation, hear rate based
 
 ## Graphical Power
 
@@ -162,7 +164,6 @@ A calories consumpiton estimation hear rate based
     </tr>
 </table>
 
-
 ## Workout execution
 
 <table border="0">
@@ -190,7 +191,7 @@ Your boss will have everything ready when you arrive. How important is it for yo
 
 It is necessary that your Karoo has access to the internet for the board to work. You can use both the K2 SIM card and the Wi-Fi connection to your mobile phone provided by both the K2 and the K3. 
 
-We have many ideas to improve this functionality in the future, Bluetooth connection, allowing an entire team to coordinate from a tablet, karoo-karoo connection... this has only just begun.
+We have many ideas to improve this functionality in the future, for example Bluetooth connection throug Companion app, multiple pit box dashboards, allowing an entire team to coordinate from a tablet, a karoo-karoo connection... this has only just begun.
 
 # SDK Implementation details
 
