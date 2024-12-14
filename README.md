@@ -25,7 +25,7 @@ If companion app does not install HkE for your device can follow this tutorial:
 
 ### Main menu
 
-<img src="./images/main.png" width="200" />
+<img src="./images/main.png" width="300" />
 
 Main menu provides access to user settings and configuration of basic functionalities of Vin HkE.
 
