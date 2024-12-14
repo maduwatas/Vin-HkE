@@ -75,9 +75,7 @@ In the pit board window you must create a own nick to your pit boss can identify
 Network advice option allow disable or enable audible warnings when your database connection are lost or gain.
 Connect buttom creates a QR code to share with your pit boss.
 Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.
-Pit history shows in a list your last received messages while riding.
-
-In the management window of the app you also have access to the history of messages that you have exchanged with your pit boss in the last 24 hours as long as he or she does not delete them.
+Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.
 
 ### Vinapp Workout
 
@@ -85,11 +83,15 @@ Karoo workout | Vinapp library | Manual workout selection
 ------------- | ------------- | ------------- 
 <img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" />
 
-Workout widget allows to execute Vinapp workouts. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
+Workout widget allows to execute Vinapp workouts in your karoo rideapp. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
 
 <img src="./images/vinapp.jpg" width="400" />
 
 Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
+
+You can decide use Vinapp directly like workout executor. Vinapp have a powerfull simulator and complex workout executor that you can use in karoo. No sensor linking is necesary. Vin implements Karoo extensions to read data from sensors linked to karoo in a transparent way. Vinapp can manage smart trainers to executing workouts un ERG mode or simulating your favorite traks from gpx files or from its library.
+
+Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
 
 
 # Extension widgets
