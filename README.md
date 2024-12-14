@@ -41,7 +41,7 @@ Some data is imported from the karoo user profile. This data is not editable, al
 
 Alert list | Create or update alert | Delete alert
 ------------- | ------------- | -------------
-<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/alertsDelete.png" width="200" /> 
+<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/borraralerta.png" width="240" /> 
 
 Vin HkE allows to configure different alerts with sound warnings and pop-up texts. 
 
@@ -79,13 +79,23 @@ Pit history shows in a list your last received messages while riding. This histo
 
 ### Vinapp Workout
 
-Karoo workout | Vinapp library | Manual workout selection 
-------------- | ------------- | ------------- 
-<img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" />
+Karoo workout | Vinapp library | Manual workout selection | Vinapp track library 
+------------- | ------------- | ------------- | ------------- 
+<img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" /> | <img src="./images/vinGpx.png" width="200" />
 
 Workout widget allows to execute Vinapp workouts in your karoo rideapp. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
 
-<img src="./images/vinapp.jpg" width="400" />
+
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/vinapp.jpg" width="400" /></td>
+        <td width="50%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
+              <p>Vinapp requires an user account in order to share your data between all your devices through cloud.</p>
+        </td>
+    </tr>
+</table>
+
+
 
 Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
 
