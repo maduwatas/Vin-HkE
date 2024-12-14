@@ -49,7 +49,7 @@ Right + button opens the new alert window.
 
 By clicking on a pre-existing alert it is possible to modify its values, not its type. Within the detail window of an alert, left red button exits without saving the changes, right green buttom aplies changes.
 
-Existing alerts can be enabled or disabled by pressing the bell button even you are on a route. Text or thresholds changes can be aplead on route too.
+Existing alerts can be enabled or disabled by pressing the bell button even you are on a route. Text or thresholds changes can be aplied on route too.
 
 To delete an alert, do long press over it and when delete icon appears, press it to delete.
 
@@ -65,17 +65,19 @@ Do you want more? Ask me!
 
 ### Pit board
 
-Chalkboard submenu | QR | Message list | Remove message
+Pit board management | QR | Message list | Remove message
 ------------- | ------------- | ------------- | ------------- 
 <img src="./images/pitboard.png" width="200" /> | <img src="./images/qr.png" width="200" /> | <img src="./images/mensajesPit.png" width="200" /> | <img src="./images/borrarMensaje.png" width="200" />
 
 In the pit board window you can capture a QR code to obtain a link to the website from where your pit boss can manage the message board for you, while you are on the go. Add a Pit board widget to your profile to receive messages on real time while you have internet connection. Your pit boss can send you concise messages with up to 3 possible preconfigured responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your pit board widget to see what it has told you and, if applicable, send it a response. You don't need open HkE app, pit board is a widget inside your ride profile.
 
-In the pit board window you must create a own nick to your pit boss can identify your pit board in scenarios with multiple riders at same time. This nick is optional.
-Network advice option allow disable or enable audible warnings when your database connection are lost or gain.
-Connect buttom creates a QR code to share with your pit boss.
-Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.
-Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.
+<p>In the pit board window you must create a own nick to your pit boss can identify your pit board in scenarios with multiple riders at same time. This nick is optional.</p>
+<p>Network advice option allow disable or enable audible warnings when your database connection are lost or gain.</p>
+<p>Connect buttom creates a QR code to share with your pit boss.</p>
+<p>Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.</p>
+<p>Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.</p>
+
+
 
 ### Vinapp Workout
 
@@ -83,25 +85,25 @@ Karoo workout | Vinapp library | Manual workout selection | Vinapp track library
 ------------- | ------------- | ------------- | ------------- 
 <img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" /> | <img src="./images/vinGpx.png" width="200" />
 
-Workout widget allows to execute Vinapp workouts in your karoo rideapp. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp HkE can sync Workout of the Day from Vin app. User can select any of the hundreds workouts includes in Vin app library and enjoy of his multiple plans.
+Workout widget allows to execute Vinapp workouts in your karoo rideapp. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp, HkE can sync Workout of the Day from Vinapp. User can select any of the hundreds workouts includes in Vin app library or enjoy of his multiple plans.
 
+Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
 
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/vinapp.jpg" width="400" /></td>
         <td width="50%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
+              <p>This view is not available for karoo due screen size considerations.</p>
               <p>Vinapp requires an user account in order to share your data between all your devices through cloud.</p>
         </td>
     </tr>
 </table>
 
-
-
-Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
-
-You can decide use Vinapp directly like workout executor. Vinapp have a powerfull simulator and complex workout executor that you can use in karoo. No sensor linking is necesary. Vin implements Karoo extensions to read data from sensors linked to karoo in a transparent way. Vinapp can manage smart trainers to executing workouts un ERG mode or simulating your favorite traks from gpx files or from its library.
+You can decide use Vinapp directly like workout executor. Vinapp have a powerful simulator and complex workout executor that you can use in karoo. No sensor linking is necesary. Vinapp implements Karoo extensions to read data from sensors linked to karoo in a transparent way. Vinapp can manage smart trainers to executing workouts un ERG mode or simulating your favorite traks from gpx files or from its library.
 
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
+
+<img src="./images/Workout1.png" width="200" />
 
 You can download Vinapp for karoo with Extensions SDK here: 
 
@@ -189,9 +191,12 @@ I'm on pk 53, what do you need? -> WATER, WATER+GEL, NEW LEGS.
 
 Your boss will have everything ready when you arrive. How important is it for you to know how much you get out of your rival? With the pit board your boss will be able to take time when you pass and inform you immediately as soon as your rival passes.
 
-It is necessary that your Karoo has access to the internet for the board to work. You can use both the K2 SIM card and the Wi-Fi connection to your mobile phone provided by both the K2 and the K3. 
+Pit board widget requires internet connection though wifi or simcard. If you losses connection Pit board will do automatic reconnection when it has possible. While has internet connection pit board will update in real time. In the future we work in bluetooth link for K3 though Hammerhead Companion app.
 
 We have many ideas to improve this functionality in the future, for example Bluetooth connection throug Companion app, multiple pit box dashboards, allowing an entire team to coordinate from a tablet, a karoo-karoo connection... this has only just begun.
+
+> [!IMPORTANT]
+> When karoo starts a new activity it disable wifi by default. HkE attempts to start wifi but not always get it due operating system restrictions. You will have an advice icon when losses internet access. > > In the major of case you must activate wifi manually at the start of your ride.
 
 # SDK Implementation details
 
