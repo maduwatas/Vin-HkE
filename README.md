@@ -99,7 +99,9 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
     </tr>
 </table>
 
-You can decide use Vinapp directly like workout executor. Vinapp have a powerful simulator and complex workout executor that you can use in karoo. No sensor linking is necesary. Vinapp implements Karoo extensions to read data from sensors linked to karoo in a transparent way. Vinapp can manage smart trainers to executing workouts un ERG mode or simulating your favorite traks from gpx files or from its library.
+You can decide use Vinapp directly like workout executor. Vinapp have a powerful simulator and complex workout executor that you can use in karoo. No sensor linking is necesary. Vinapp implements Karoo extensions to read data from sensors linked to karoo in a transparent way. 
+
+Vinapp can manage smart trainers to executing workouts in ERG mode or simulating your favorite traks, from gpx files or from its library. In order to Vinapp take the control of your smart trainer you must link it to Vinapp by pushing antenne button inside its workout executor, or its tracks simulator. Take the control of smart trainers is not possible thoug Extensions SDK. 
 
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
 
