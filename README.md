@@ -11,6 +11,14 @@ Currently, Hammerhead has NOT YET released an on-device app store for easy insta
 
 https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sideloading 
 
+If companion app does not install HkE for your device can follow this tutorial:
+
+* Download the Vin-HkE.apk from the latest release page.
+      https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-HkE.apk
+* Prepare your Karoo for sideloading by following this step-by-step guide
+      https://www.dcrainmaker.com/2021/02/how-to-sideload-android-apps-on-your-hammerhead-karoo-1-karoo-2.html
+* Install the app using the command adb install Vin-HkE.apk.
+
  After install you can see the Vin HkE main menu.
 
 # HkE app Navigation
@@ -27,7 +35,7 @@ User profile | Power threshold data | Hear rate threshold data | Nutritional dat
 ------------- | ------------- | ------------- | -------------
 ![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
-Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
+Some data is imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
 ### Alerts
 
@@ -35,15 +43,15 @@ Alert list | Create or update alert | Delete alert
 ------------- | ------------- | -------------
 <img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/alertsDelete.png" width="200" /> 
 
-Vin HkE allows you to configure different alerts with sound warnings and pop-up texts. 
+Vin HkE allows to configure different alerts with sound warnings and pop-up texts. 
 
-Using the + button the user can add a new alert.
+Right + button opens the new alert window.
 
-By clicking on a pre-existing alert it is possible to modify it. Within the detail window of an alert, the X button exits without saving the changes.
+By clicking on a pre-existing alert it is possible to modify its values, not its type. Within the detail window of an alert, left red button exits without saving the changes, right green buttom aplies changes.
 
-Existing alerts can be enabled or disabled by pressing the bell button even you are on a route.
+Existing alerts can be enabled or disabled by pressing the bell button even you are on a route. Text or thresholds changes can be aplead on route too.
 
-To delete an alert, long press and when the delete icon appears, press it to delete.
+To delete an alert, do long press over it and when delete icon appears, press it to delete.
 
 The alert types available are as follow:
 
@@ -57,11 +65,17 @@ Do you want more? Ask me!
 
 ### Pit board
 
-Chalkboard submenu | Message list | Message detail | Remove message
+Chalkboard submenu | Message list | Remove message
 ------------- | ------------- | ------------- | -------------
-![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
+![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
-From the management of your pit board you can capture the QR code to obtain the link to the website from where your pit boss can send you messages while you are on the go. Add the Pit Chalkboard window to your profile to receive messages. Your pit boss can send you concise messages with up to 3 possible responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your board to see what it has told you and, if applicable, send it a response.
+In the pit board window you can capture a QR code to obtain a link to the website from where your pit boss can manage the message board for you, while you are on the go. Add a Pit board widget to your profile to receive messages on real time while you have internet connection. Your pit boss can send you concise messages with up to 3 possible preconfigured responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your pit board widget to see what it has told you and, if applicable, send it a response. You don't need open HkE app, pit board is a widget inside your ride profile.
+
+In the pit board window you must create a own nick to your pit boss can identify your pit board in scenarios with multiple riders at same time. This nick is optional.
+Network advice option allow disable or enable audible warnings when your database connection are lost or gain.
+Connect buttom creates a QR code to share with your pit boss.
+Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.
+Pit history shows in a list your last received messages while riding.
 
 In the management window of the app you also have access to the history of messages that you have exchanged with your pit boss in the last 24 hours as long as he or she does not delete them.
 
