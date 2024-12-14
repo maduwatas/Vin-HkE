@@ -3,7 +3,9 @@
 
 # Vinapp HkE
 
-Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices. Tested in Hammerhead K2 and K3 devices.
+Vin HkE is an extension implementation for Hammerhead Karroo based on Vin's CORE and the new Hammerhead SDK for its GPS devices. Tested in Hammerhead K2 and K3 devices. Vin is an Android training and planning app for cycling with more than 4 years of life and a 5-star rating on Google Play.
+
+
 
 ## Installation
 
@@ -19,7 +21,7 @@ https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sid
 
 <img src="./images/menu.png" width="200" />
 
-Main menu provides access to user settings and configuration of basic functionalities of the application.
+Main menu provides access to user settings and configuration of basic functionalities of Vin HkE.
 
 ### User profile configuration
 
