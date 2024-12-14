@@ -7,7 +7,7 @@ Vinapp HkE is an extension implementation for Hammerhead Karroo based on Vin's C
 
 ## Installation
 
-Currently, Hammerhead has not yet released an on-device app store for easy installation of apps. Until then, you can sideload the app with Hammerhead Companion app.
+Currently, Hammerhead has NOT YET released an on-device app store for easy installation of apps. Until then, you can sideload the app with Hammerhead Companion app.
 
 https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sideloading 
 
@@ -19,7 +19,7 @@ https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sid
 
 <img src="./images/menu.png" width="200" />
 
-Main menu provides access to user settings and configuration of basic parts of the application.
+Main menu provides access to user settings and configuration of basic functionalities of the application.
 
 ### User profile configuration
 
@@ -27,7 +27,7 @@ User profile | Power threshold data | Hear rate threshold data | Nutritional dat
 ------------- | ------------- | ------------- | -------------
 ![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
-Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations, for different intensities.
+Some data is imported from the karoo user profile. This data is not editable, other data can be. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
 ### Alerts
 
@@ -41,9 +41,9 @@ Using the + button the user can add a new alert.
 
 By clicking on a pre-existing alert it is possible to modify it. Within the detail window of an alert, the X button exits without saving the changes.
 
-Existing alerts can be activated or deactivated by pressing the bell button.
+Existing alerts can be enabled or disabled by pressing the bell button even you are on a route.
 
-To delete an alert, long press and when the delete icon appears, press it.
+To delete an alert, long press and when the delete icon appears, press it to delete.
 
 The alert types available are as follow:
 
