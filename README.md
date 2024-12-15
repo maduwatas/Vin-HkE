@@ -41,21 +41,44 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 #### Battery saving options
 
-(./images/preferencesEn2.png?raw=true "Preferences") 
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/preferencesEn2.png" width="200" /></td>
+        <td width="50%">
 
 ##### Progress bars
 Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
 
 ##### Sensor data capture
 When you start a ride, HkE starts its calculations in the background to obtain real-time data of calories, averages, normalized data... this data is required for some HkE widgets such as power, heart rate or calories. Other functionalities such as alerts, power balance or Pit board do not need these calculations. If you are using a profile without HkE widgets with the background process required, you can disable it to save a small amount of battery. If you start a ride without starting HkE background calculations and later decide choosing an HkE profile some data could not work, due background calculations would not running.
+        </td>
+    </tr>
+</table>
+
+
+
+
+
 
 #### Training options
 
-(./images/preferencesEn.png?raw=true "Preferences") 
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/preferencesEn.png" width="200" /></td>
+        <td width="50%">
 
+##### Training system
 Choose Heart rate based or Power based workouts.
 
+##### CTL
 Your chronic training load is a measure of your fitness that is used as a calculation parameter for HkE algorithms. If you don't know this value, you can get it from the statistics functionality of Vinapp or other training platforms. If you install vinapp and synchronize your training history CTL will be updated in a transparent way from Vinapp to HkE when starting your karoo.
+        </td>
+    </tr>
+</table>
+<img src="./images/preferencesEn.png" width="200" />
+
+
+
 
 Choose the time interval to measure and average your power before show it in HkE widgets
 
