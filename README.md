@@ -25,7 +25,7 @@ If companion app does not install HkE for your device can follow this tutorial:
 
 ### Main menu
 
-<img src="./images/main.png" width="300" />
+<img src="./images/menuEn.png" width="300" />
 
 Main menu provides access to user settings and configuration of basic functionalities of Vin HkE.
 
@@ -33,7 +33,7 @@ Main menu provides access to user settings and configuration of basic functional
 
 User profile | Power threshold data | Hear rate threshold data | Nutritional data
 ------------- | ------------- | ------------- | -------------
-![](./images/userProfile.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
+![](./images/userprofileEn.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
 Some data are imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
