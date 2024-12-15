@@ -35,11 +35,13 @@ User profile | Power threshold data | Hear rate threshold data | Nutritional dat
 ------------- | ------------- | ------------- | -------------
 ![](./images/userprofileEn.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
-Some data are imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
+Some data are imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. From user profile you can edit some data and pushing Threshold button navigate to power threshold or hear rate threshold configuration page. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
 ### Preferences
 
 #### Battery saving options
+
+(./images/preferencesEn2.png?raw=true "Preferences") 
 
 ##### Progress bars
 Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
@@ -48,6 +50,8 @@ Some HkE widgets include beautiful and useful progress bars to represent data. D
 When you start a ride, HkE starts its calculations in the background to obtain real-time data of calories, averages, normalized data... this data is required for some HkE widgets such as power, heart rate or calories. Other functionalities such as alerts, power balance or Pit board do not need these calculations. If you are using a profile without HkE widgets with the background process required, you can disable it to save a small amount of battery. If you start a ride without starting HkE background calculations and later decide choosing an HkE profile some data could not work, due background calculations would not running.
 
 #### Training options
+
+(./images/preferencesEn.png?raw=true "Preferences") 
 
 Choose Heart rate based or Power based workouts.
 
