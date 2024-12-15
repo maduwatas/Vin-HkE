@@ -37,6 +37,24 @@ User profile | Power threshold data | Hear rate threshold data | Nutritional dat
 
 Some data are imported from the karoo user profile. This data is not editable, all other data can be edited within the supported values. The user's gender, weight, height and threshold data are necessary to adjust the calculations of calories burned in the activity. The nutritional data provides information on these calculations for different intensities.
 
+### Preferences
+
+#### Battery saving options
+
+##### Progress bars
+Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
+
+##### Sensor data capture
+When you start a ride, HkE starts its calculations in the background to obtain real-time data of calories, averages, normalized data... this data is required for some HkE widgets such as power, heart rate or calories. Other functionalities such as alerts, power balance or Pit board do not need these calculations. If you are using a profile without HkE widgets with the background process required, you can disable it to save a small amount of battery. If you start a ride without starting HkE background calculations and later decide choosing an HkE profile some data could not work, due background calculations would not running.
+
+#### Training options
+
+Choose Heart rate based or Power based workouts.
+
+Your chronic training load is a measure of your fitness that is used as a calculation parameter for HkE algorithms. If you don't know this value, you can get it from the statistics functionality of Vinapp or other training platforms. If you install vinapp and synchronize your training history CTL will be updated in a transparent way from Vinapp to HkE when starting your karoo.
+
+Choose the time interval to measure and average your power before show it in HkE widgets
+
 ### Alerts
 
 Alert list | Create or update alert | Delete alert
