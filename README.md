@@ -25,7 +25,7 @@ If companion app does not install HkE for your device can follow this tutorial:
 
 ### Main menu
 
-<img src="./images/menuEn.png" width="300" />
+<img src="./images/menuEn.png" width="250" />
 
 Main menu provides access to user settings and configuration of basic functionalities of Vin HkE.
 
@@ -43,8 +43,8 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/preferencesEn2.png" width="200" /></td>
-        <td width="50%">
+        <td width="25%" ><img src="./images/preferencesEn2.png" width="200" /></td>
+        <td width="75%">
 
 ##### Progress bars
 Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
@@ -64,23 +64,20 @@ When you start a ride, HkE starts its calculations in the background to obtain r
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/preferencesEn.png" width="200" /></td>
-        <td width="50%">
+        <td width="20%" ><img src="./images/preferencesEn.png" width="200" /></td>
+        <td width="75%">
 
 ##### Training system
 Choose Heart rate based or Power based workouts.
 
 ##### CTL
 Your chronic training load is a measure of your fitness that is used as a calculation parameter for HkE algorithms. If you don't know this value, you can get it from the statistics functionality of Vinapp or other training platforms. If you install vinapp and synchronize your training history CTL will be updated in a transparent way from Vinapp to HkE when starting your karoo.
+
+##### Power smoothness
+Choose the time interval, in seconds, to measure and average your power before show it in HkE widgets    
         </td>
     </tr>
 </table>
-<img src="./images/preferencesEn.png" width="200" />
-
-
-
-
-Choose the time interval to measure and average your power before show it in HkE widgets
 
 ### Alerts
 
@@ -110,9 +107,9 @@ Do you want more? Ask me!
 
 ### Pit board
 
-Pit board management | QR | Message list | Remove message
+Pit board management | QR | Message history | Remove message
 ------------- | ------------- | ------------- | ------------- 
-<img src="./images/pitboard.png" width="200" /> | <img src="./images/qr.png" width="200" /> | <img src="./images/mensajesPit.png" width="200" /> | <img src="./images/borrarMensaje.png" width="200" />
+<img src="./images/pitboard.png" width="200" /> | <img src="./images/qr.png" width="200" /> | <img src="./images/pitList.png" width="200" /> | <img src="./images/deletePitMessage.png" width="200" />
 
 In the pit board window you can capture a QR code to obtain a link to the website from where your pit boss can manage the message board for you, while you are on the go. Add a Pit board widget to your profile to receive messages on real time while you have internet connection. Your pit boss can send you concise messages with up to 3 possible preconfigured responses. It can also send you merely informative messages, without any response available. When your pit boss sends you a message you will receive a special audible alert on your karoo. Without having to stop pedaling, you can move to your pit board widget to see what it has told you and, if applicable, send it a response. You don't need open HkE app, pit board is a widget inside your ride profile.
 
@@ -243,7 +240,7 @@ Pit board widget requires internet connection though wifi or simcard. If you los
 We have many ideas to improve this functionality in the future, for example Bluetooth connection throug Companion app, multiple pit box dashboards, allowing an entire team to coordinate from a tablet, a karoo-karoo connection... this has only just begun.
 
 > [!IMPORTANT]
-> When karoo starts a new activity it disable wifi by default. HkE attempts to start wifi but not always get it due operating system restrictions. You will have an advice icon when losses internet access. > > In the major of case you must activate wifi manually at the start of your ride.
+> When karoo starts a new activity it disable wifi by default. HkE attempts to start wifi but not always get it due operating system restrictions. You will have an advice icon when losses internet access. In the major of case you must activate wifi manually at the start of your ride.
 
 # SDK Implementation details
 
