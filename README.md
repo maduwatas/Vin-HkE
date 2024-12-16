@@ -191,9 +191,6 @@ A single field with calories consumpiton estimation, hear rate based
 
 ## Graphical Power balance
 
-> [!NOTE]  
-> Disabled in 1.1.7. Will come back soon
-
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/profileBalance.png" width="200" /></td>
