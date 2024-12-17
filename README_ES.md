@@ -84,11 +84,11 @@ En la ventana de perfil de tu karoo verás todos los campos adicionales que la E
 
 Para el Pit Board deberás elegir un campo gráfico a pantalla completa.
 
-Para los campos gráficos de potencia, pulso, calorías consumidas y balance de potencia, recomendamos elegir el diseño de una sola fila con dos campos libres y el campo gráfico Vin HkE a continuación.
+Para los campos gráficos de potencia, pulso, calorías consumidas y balance de potencia, recomendamos elegir el diseño de una sola fila con dos campos libres y el campo gráfico Vin HkE a continuación. Estos widgets están, por tanto, diseñados para ocupar 3/4 partes de la pantalla.
 
 En la versión 1.2.0 también estará disponible el widget de Compañero virtual, donde podrás configurar una velocidad media para un rival virtual y competir contra él en tus recorridos. La velocidad del compañero virtual puede modificarse en marcha. El widget te muestra información sobre la distancia y el tiempo que te separa de tu contrincante.
 
-El compañero virtual está diseñado para ser incluido en una pantalla con 4 camops adicionales, es decir, ocupa media pantalla.
+El compañero virtual está diseñado para ser incluido en una pantalla con 4 campos adicionales, es decir, ocupa media pantalla.
 
 ## Calories estimated by Heart Rate 
 
