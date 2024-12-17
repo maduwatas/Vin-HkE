@@ -1,39 +1,41 @@
 # Vinapp HkE
 
-Vinapp HkE es una implementación de extensión para Karoo Hammerhead basada en Vin's CORE y el nuevo SDK Hammerhead para sus dispositivos GPS. Probado en dispositivos Hammerhead K2 y K3.
+Vin HkE es una aplicación de Extensiones para Hammerhead Karoo basada en CORE de Vin y el nuevo SDK que ha liberado Hammerhead para extender la funcionalidad de sus dispositivos GPS. HkE ha sido probado en dispositivos Hammerhead Karoo 2 y Karoo 3.
 
-# HkE app Navigation
+# Navegación en HkE
 
-### Main menu
+### Menú principal
 
 <img src="./images/menu.png" width="200" />
 
-El menú principal proporciona acceso a la configuración del usuario y a la configuración de partes básicas de la aplicación.
+El menú principal proporciona acceso a la configuración de usuario y a la configuración de algunos parámetros internos de la aplicación, para permitir al usuario su personalización.
 
-### User profile configuration
+### Datos de usuario
 
-User profile | Power threshold data | Hear rate threshold data | Nutritional data
+Datos básicos | Umbrales de potencia | Umbrales de pulso | Perfil nutricional
 ------------- | ------------- | ------------- | -------------
 ![](./images/usuario2.png?raw=true "User data") | ![](./images/power.png?raw=true "User data") | ![](./images/hr.png?raw=true "Threshold data") | ![](./images/nutricion.png?raw=true "Threshold data")
 
-Algunos datos se importan del perfil de usuario de karoo. Estos datos no son editables. Los datos de sexo, peso, altura y umbral del usuario son necesarios para ajustar los cálculos de calorías quemadas en la actividad. Los datos nutricionales aportan información sobre estos cálculos, para diferentes intensidades.
+Algunos datos se importan directamente del perfil de usuario de karoo y no son editables dentro de HkE. Hemos decidido hacerlo así porque pensamos que es mejor tener los datos en un único sitio dentro del dispositivo. HkE precisa de algunos otros datos para sus cálculos internos, que sí son editables. Los datos de sexo, peso, altura y umbral del usuario son necesarios para ajustar los cálculos de calorías quemadas en la actividad. Los datos nutricionales aportan información importante para estos cálculos. En la pantalla de perfil nutricional HkE ofrece ejemplos de cómo resultan estos cálculos para diferentes intensidades en un intervalo de una hora.
 
 
-### Alerts
+### Alertas
 
-Alert list | Create or update alert | Delete alert
+Lista de alertas | Crear o modificar alertas | Eliminar
 ------------- | ------------- | -------------
 <img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/alertsDelete.png" width="200" /> 
 
-HkE Vin te permite configurar diferentes alertas con avisos sonoros y textos emergentes. 
+HkE Vin te permite configurar diferentes alertas con avisos sonoros y textos emergentes. También puedes configurar alertas sin texto, si así lo prefieres. A partir de la versión 1.2.0, las alertas de tiempo y calorías quemadas se pueden configurar como periodias o de una única ejecución.
 
-Usando el botón + el usuario puede agregar una nueva alerta.
+Usando el botón + puedes agregar una nueva alerta.
 
 Al hacer clic en una alerta preexistente es posible modificarla. Dentro de la ventana de detalles de una alerta, el botón X sale sin guardar los cambios.
 
 Las alertas existentes se pueden activar o desactivar presionando el botón de campana.
 
-Para eliminar una alerta, mantenga presionada y cuando aparezca el ícono de eliminar, presiónelo.
+Las alertas periodicas muestran un icono identificativo a la derecha del tipo de alerta.
+
+Para eliminar una alerta, mantenga presionada y cuando aparezca el ícono de eliminar, presionalo para borrar.
 
 Los tipos de alerta disponibles son los siguientes:
 
@@ -43,48 +45,61 @@ Los tipos de alerta disponibles son los siguientes:
 * Calorías quemadas
 * Gramos de Carbohidratos quemados
 
-¿Quieres más? ¡Pregúnteme!
+¿Quieres más? ¡Pídelas!
 
-### Box chalkboard
+### Pizarra de boxes
 
-Chalkboard submenu | Message list | Message detail | Remove message
-------------- | ------------- | ------------- | -------------
-![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/mensajes2.png?raw=true "mesagge2") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
+Submenú Pizarra de boxes | Lista de menajes| Borrar mensajes
+------------- | ------------- | -------------
+![](./images/box.png?raw=true "Box") | ![](./images/mensajes.png?raw=true "mesagge") | ![](./images/borrarMensaje.png?raw=true "mesagge3")
 
-Desde la gestión de tu tablero de boxes podrás capturar el código QR para obtener el enlace al sitio web desde donde tu jefe de boxes podrá enviarte mensajes mientras estás en movimiento. Agregue la ventana Pit Chalkboard a su perfil para recibir mensajes. Tu jefe de sala puede enviarte mensajes concisos con hasta 3 respuestas posibles. También puede enviarle mensajes meramente informativos, sin que haya respuesta disponible. Cuando su jefe de sala le envíe un mensaje, recibirá una alerta audible especial en su karoo. Sin tener que dejar de pedalear, podrás acercarte a tu tabla para ver qué te ha dicho y, en su caso, enviarle una respuesta.
+Desde la gestión de tu pizarra de boxes puedes capturar el código QR para obtener el enlace al sitio web desde donde tu jefe de boxes podrá enviarte mensajes mientras estás en movimiento. 
 
-En la ventana de gestión de la aplicación también tienes acceso al historial de mensajes que has intercambiado con tu jefe de sala en las últimas 24 horas, siempre y cuando él o ella no los borre.
+Añade el widget Pizarra de boxes a tu perfil de entrenamiento para recibir mensajes en tiempo real desde el cliente web. Tu jefe de boxes puede enviarte mensajes concisos con hasta 3 respuestas posibles. También puede enviarle mensajes meramente informativos, sin que haya respuesta disponible. 
+
+Cuando su jefe de boxes envíe un mensaje, recibirás una alerta audible especial en su karoo y un mensaje de texto emergente. Cuando el terreno te lo permita, pero sin tener que dejar de pedalear, podrás moverte al widget de la pizarra para ver qué te ha dicho y, en su caso, enviarle una respuesta. Veremos en detalle cómo funciona el widget un poco más adelante.
+
+En la ventana de gestión de la Pizarra también tienes acceso al historial de mensajes que has intercambiado con tu jefe de sala en las últimas 24 horas, siempre y cuando él o ella no decida eliminarlos permanentemente. No puedes contestar mensajes desde el histórico, esto sólo está permitido desde el widget.
+
 ### Vinapp Workout
 
-Karoo workout | Vinapp library | Manual workout selection 
+Karoo workout | Librearía Vinapp | Selección manual de workout
 ------------- | ------------- | ------------- 
 <img src="./images/workout.png" width="200" /> | <img src="./images/Workout1.png" width="200" /> | <img src="./images/Workout2.png" width="200" />
 
-El widget de entrenamiento permite ejecutar entrenamientos de Vinapp. Vin HkE incluye un entrenamiento de muestra. Vinapp es una aplicación gratuita Android para entrenamiento y planificación ciclista con 5 estrellas en Google Play. La instalación de Vinapp HkE puede sincronizar el entrenamiento del día desde la aplicación Vin. El usuario puede seleccionar cualquiera de los cientos de entrenamientos incluidos en la biblioteca de la aplicación Vin y disfrutar de sus múltiples planes.
+El widget de entrenamiento permite ejecutar entrenamientos de Vinapp. Vin HkE incluye un entrenamiento de muestra, deberás instalar Vinapp si quieres tener acceso gratuito a su librería de entrenos. 
 
-Una vez que Vinapp está instalado en karoo, HkE vincula un servicio que sincroniza automáticamente el entrenamiento del día. Si el usuario no tiene un plan seleccionado, Vinapp permite la selección directa de cualquier entrenamiento incluido en Vinapp con un simple clic en el botón amarillo con el logotipo del tiburón martillo y sincronícelo en HkE.
+Vinapp es una aplicación gratuita Android para entrenamiento y planificación ciclista con 5 estrellas en Google Play. Vinapp HkE puede sincronizar el entrenamiento del día desde la aplicación Vinapp, si esta última está instalada el tu karoo. 
+
+Una vez que Vinapp está instalado en karoo, HkE vincula un servicio que sincroniza automáticamente el entrenamiento del día. Si el usuario no tiene un plan seleccionado, Vinapp permite la selección directa de cualquier entrenamiento incluido en Vinapp con un simple clic en el botón amarillo con el logotipo del tiburón martillo y sincronícelo en HkE. 
+
+Vinapp también es una aplicación de seguimiento y control de cargas que se sincroniza con plataformas de análisis de datos como strava o intervals. Si Vinapp está instalada tu dato de CTL en vinapp se compartirá de forma transparente en tu karoo.
 
 
-# Extension widgets
+# Campos de la Extensión
 
 <img src="./images/profileHke.png" width="200" />
 
-En la ventana de perfil de tu karoo verás todos los campos adicionales que l a Extensión Vin proporciona para tu karoo. Puedes elegir varios campos gráficos y un campo de texto simple con las calorías quemadas estimadas a partir de la frecuencia cardíaca.
-
-Para los campos gráficos de potencia, pulso, calorías consumidas y balance de potencia, recomendamos elegir el diseño de una sola fila con dos campos libres y el campo gráfico Vin HkE a continuación.
+En la ventana de perfil de tu karoo verás todos los campos adicionales que la Extensión Vin, HkE, proporciona para tu karoo. Puedes elegir varios campos gráficos y un campo de texto simple con las calorías quemadas estimadas a partir de la frecuencia cardíaca.
 
 Para el Pit Board deberás elegir un campo gráfico a pantalla completa.
 
+Para los campos gráficos de potencia, pulso, calorías consumidas y balance de potencia, recomendamos elegir el diseño de una sola fila con dos campos libres y el campo gráfico Vin HkE a continuación.
+
+En la versión 1.2.0 también estará disponible el widget de Compañero virtual, donde podrás configurar una velocidad media para un rival virtual y competir contra él en tus recorridos. La velocidad del compañero virtual puede modificarse en marcha. El widget te muestra información sobre la distancia y el tiempo que te separa de tu contrincante.
+
+El compañero virtual está diseñado para ser incluido en una pantalla con 4 camops adicionales, es decir, ocupa media pantalla.
+
 ## Calories estimated by Heart Rate 
 
-Consumo de calorías basado en la frecuencia cardíaca
+Consumo de calorías basado en la frecuencia cardíaca. Algo sencillo uan vez que contamos con el core de Vin, pero que los karoo no incorporan de serie y muchos usuarios demandaban.
 
 ## Graphical Power
 
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/profilePower.png" width="200" /></td>
-        <td width="50%">Widget de energía con barra de progreso gráfica basada en FTP. La potencia instantánea, la potencia promedio y la potencia de intervalo promedio tienen barras de potencia gráfica. La zona de potencia, la potencia normalizada, el porcentaje de potencia relativa a FTP, los kJ quemados, la cadencia (si existe) y la frecuencia cardíaca (si existe) son datos secundarios para este widget.</td>
+        <td width="50%">Widget de potencia con barra de progreso gráfica basada en FTP. La potencia instantánea, la potencia promedio y la potencia de intervalo promedio tienen barras de potencia gráfica. La zona de potencia, la potencia normalizada, el porcentaje de potencia relativa a FTP, los kJ quemados, la cadencia (si existe) y la frecuencia cardíaca (si existe) son datos secundarios para este widget.</td>
     </tr>
 </table>
  | 
