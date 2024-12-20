@@ -207,6 +207,27 @@ A single field with calories consumpiton estimation, hear rate based
     </tr>
 </table>
 
+## Virtual racer
+
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="50%"><p>You'll Never Walk Alone!</p>
+        <p>If you are one of those guys who like to compete even againts your shadow, you are in luck. With the virtual racer you will always have someone to chase or leave behind</p>
+        <p>Set your opponent's instant speed using the - + buttons to the left and right of their current speed. At each moment you can see how far apart you are with the distance and time values. When you are together the virtual racer icon will be displayed in the center of the screen, it will move away from you to the left when you win and to the right when you lose.</p>
+        </td>
+    </tr>
+</table>
+
+## Colored fields
+
+There are 4 colored fields.
+
+*Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
+*Colored heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+*Multiple power: shows power output, power average and normalized power in a single karoo field. Power zone shows, in each data, through color codes from blue to purple, based in your karoo power zones profile power data.
+*Multiple heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+
 ## Workout execution
 
 <table border="0">
