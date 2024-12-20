@@ -56,10 +56,6 @@ When you start a ride, HkE starts its calculations in the background to obtain r
 </table>
 
 
-
-
-
-
 #### Training options
 
 <table border="0">
@@ -83,7 +79,7 @@ Choose the time interval, in seconds, to measure and average your power before s
 
 Alert list | Create or update alert | Delete alert
 ------------- | ------------- | -------------
-<img src="./images/alertas.png" width="200" /> | <img src="./images/alertas2.png" width="200" /> | <img src="./images/borraralerta.png" width="240" /> 
+<img src="./images/alarmList.png" width="200" /> | <img src="./images/alarmDetail.png" width="200" /> | <img src="./images/borraralerta.png" width="240" /> 
 
 Vin HkE allows to configure different alerts with sound warnings and pop-up texts. 
 
@@ -102,6 +98,8 @@ The alert types available are as follow:
 * Maximum power
 * Calories burned
 * Grams of Carbohydrates burned
+
+Time and calories alarms allows to allows configure single shot or periodic shots. 
 
 Do you want more? Ask me!
 
