@@ -117,8 +117,6 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 <p>Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.</p>
 <p>Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.</p>
 
-
-
 ### Vinapp Workout
 
 Karoo workout | Vinapp library | Manual workout selection | Vinapp track library 
@@ -144,6 +142,8 @@ You can decide use Vinapp directly like workout executor. Vinapp have a powerful
 Vinapp can manage smart trainers to executing workouts in ERG mode or simulating your favorite traks, from gpx files or from its library. In order to Vinapp take the control of your smart trainer you must link it to Vinapp by pushing antenne button inside its workout executor, or its tracks simulator. Take the control of smart trainers is not possible thoug Extensions SDK. 
 
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
+
+You can download Vinapp apk from here: https://github.com/maduwatas/Vin-HkE/releases/download/Vinapp/Vin-2.799.2024122101-play-release.apk
 
 <img src="./images/vinFitness.png" width="200" />
 
