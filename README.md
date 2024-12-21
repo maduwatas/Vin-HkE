@@ -14,7 +14,7 @@ https://support.hammerhead.io/hc/en-us/articles/31576497036827-Companion-App-Sid
 If companion app does not install HkE for your device can follow this tutorial:
 
 * Download the Vin-HkE.apk from the latest release page.
-      https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-HkE.apk
+      [https://github.com/maduwatas/Vin-HkE/releases/download/latest/](https://github.com/maduwatas/Vin-HkE/releases/tag/latest)
 * Prepare your Karoo for sideloading by following this step-by-step guide
       https://www.dcrainmaker.com/2021/02/how-to-sideload-android-apps-on-your-hammerhead-karoo-1-karoo-2.html
 * Install the app using the command adb install Vin-HkE.apk.
