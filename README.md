@@ -166,6 +166,15 @@ For the Pit Board or workout widget you must choose a full screen graphic field.
 ## Calories estimated by Heart Rate 
 
 A single field with calories consumpiton estimation, hear rate based
+ <p>A little of physics:</p>
+       
+* 1W = 1 J/s
+* 1cal = 4.18 J
+* 1kcal = 4.18 kJ
+  
+<p>Calories consumption estimation based in power outputs says that 1cal burned = 1 Joule or power output, due to how inefficient we are at producing pedaling power only a 24% of cal burned are transformed on pedaling power output. So, 1kJ = 1kcal, for all the people!! Thats is not truth, is obvious, but is accepted. </p>
+<p>Training status, age, weigth, sex, ambiental enviroment... are parameters that must be taken account to an accurate algorithm. Estimating calories on heart rate though complex algorithms that take acount all these parameters is possible and HkE do it. You must configure your biometrics parameters in HkE user profile to get accurate estimations. Sex, heigth, weigth, heart rate threshold, VO2Max (estimated from FTP), maximum heart rate and training status (CTL) are the key parameters</p>
+<p>To know more read here: https://www.omnicalculator.com/sports/calories-burned-by-heart-rate</p>
 
 ## Graphical Power
 
@@ -182,7 +191,7 @@ A single field with calories consumpiton estimation, hear rate based
 <table border="0">
     <tr>
         <td width="50%" ><img src="./images/profileHr.png" width="200" /></td>
-        <td width="50%">Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, power (if exists) and cadence (if exists) are secundary data for this widget.</td>
+        <td width="50%"><p>Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, power (if exists) and cadence (if exists) are secundary data for this widget.</p></td>
     </tr>
 </table>
 
@@ -213,6 +222,7 @@ A single field with calories consumpiton estimation, hear rate based
         <td width="50%"><p>You'll Never Walk Alone!</p>
         <p>If you are one of those guys who like to compete even againts your shadow, you are in luck. With the virtual racer you will always have someone to chase or leave behind</p>
         <p>Set your opponent's instant speed using the - + buttons to the left and right of their current speed. At each moment you can see how far apart you are with the distance and time values. When you are together the virtual racer icon will be displayed in the center of the screen, it will move away from you to the left when you win and to the right when you lose.</p>
+              <p>Virtual racer image from <a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons">Cycling icons created by kosonicon - Flaticon</a></p>
         </td>
     </tr>
 </table>
