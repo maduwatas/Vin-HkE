@@ -231,7 +231,7 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/colorinchis.png" width="400" /></td>
+        <td width="50%" ><img src="./images/colorinchis.png" width="200" /></td>
         <td width="50%"><p>There are 4 colored fields.</p>
        
 * Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
