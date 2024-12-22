@@ -229,12 +229,18 @@ A single field with calories consumpiton estimation, hear rate based
 
 ## Colored fields
 
-There are 4 colored fields.
-
-*Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
-*Colored heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
-*Multiple power: shows power output, power average and normalized power in a single karoo field. Power zone shows, in each data, through color codes from blue to purple, based in your karoo power zones profile power data.
-*Multiple heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+<table border="0">
+    <tr>
+        <td width="50%" ><img src="./images/colorinchis.png" width="400" /></td>
+        <td width="50%"><p>There are 4 colored fields.</p>
+       
+* Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
+* Colored heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+* Multiple power: shows power output, interval power average and normalized power in a single karoo field. Power zone shows, in each data, through color codes from blue to purple, based in your karoo power zones profile power data.
+* Multiple heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+        </td>
+    </tr>
+</table>
 
 ## Workout execution
 
