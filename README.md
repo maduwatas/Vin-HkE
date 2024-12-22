@@ -43,8 +43,8 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 <table border="0">
     <tr>
-        <td width="25%" ><img src="./images/preferencesEn2.png" width="200" /></td>
-        <td width="75%">
+        <td width="30%" ><img src="./images/preferencesEn2.png" width="200" /></td>
+        <td width="70%">
 
 ##### Progress bars
 Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
@@ -60,8 +60,8 @@ When you start a ride, HkE starts its calculations in the background to obtain r
 
 <table border="0">
     <tr>
-        <td width="20%" ><img src="./images/preferencesEn.png" width="200" /></td>
-        <td width="75%">
+        <td width="30%" ><img src="./images/preferencesEn.png" width="200" /></td>
+        <td width="70%">
 
 ##### Training system
 Choose Heart rate based or Power based workouts.
@@ -129,8 +129,8 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/vinapp.jpg" width="400" /></td>
-        <td width="50%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
+        <td width="30%" ><img src="./images/vinapp.jpg" width="400" /></td>
+        <td width="70%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
               <p>This view is not available for karoo due screen size considerations.</p>
               <p>Vinapp requires an user account in order to share your data between all your devices through cloud.</p>
         </td>
@@ -180,8 +180,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/profilePower.png" width="200" /></td>
-        <td width="50%">Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence (if exists) and heart rate (if exists) are secundary data for this widget.</td>
+        <td width="30%" ><img src="./images/profilePower.png" width="200" /></td>
+        <td width="70%">Complete data power widget with graphical progress bar FTP based. Instant power, average power and average interval power have graphics power bars. Power zone, normalized power, power percent relative to FTP, kJ burned, cadence (if exists) and heart rate (if exists) are secundary data for this widget.</td>
     </tr>
 </table>
  | 
@@ -190,8 +190,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/profileHr.png" width="200" /></td>
-        <td width="50%"><p>Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, power (if exists) and cadence (if exists) are secundary data for this widget.</p></td>
+        <td width="30%" ><img src="./images/profileHr.png" width="200" /></td>
+        <td width="70%"><p>Complete data heart rate widget with graphical progress bar Heart rate threshold based. Instant heart rate, average heart rate and average interval heart rate have graphics power bars. Heart rate zone, calories burned , heart rate percent relative to maximun hear rate, power (if exists) and cadence (if exists) are secundary data for this widget.</p></td>
     </tr>
 </table>
 
@@ -200,8 +200,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/profileBalance.png" width="200" /></td>
-        <td width="50%">Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right.</td>
+        <td width="30%" ><img src="./images/profileBalance.png" width="200" /></td>
+        <td width="70%">Power balance data for dual powermeters. This widget shows graphical progress bar for power balance left-right, pedal smoothness left-right and torque effectiveness left-right.</td>
     </tr>
 </table>
 
@@ -209,8 +209,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/profileCalories.png" width="200" /></td>
-        <td width="50%">Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.</td>
+        <td width="30%" ><img src="./images/profileCalories.png" width="200" /></td>
+        <td width="70%">Complete data caloric consumption widget. Shows instant caloric consumption speed total, fat and carbohydrate. Total grams of fat and charbohydrate burned.</td>
     </tr>
 </table>
 
@@ -218,8 +218,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/virtualpartner.png" width="400" /></td>
-        <td width="50%"><p>You'll Never Walk Alone!</p>
+        <td width="40%" ><img src="./images/virtualpartner.png" width="400" /></td>
+        <td width="60%"><p>You'll Never Walk Alone!</p>
         <p>If you are one of those guys who like to compete even againts your shadow, you are in luck. With the virtual racer you will always have someone to chase or leave behind</p>
         <p>Set your opponent's instant speed using the - + buttons to the left and right of their current speed. At each moment you can see how far apart you are with the distance and time values. When you are together the virtual racer icon will be displayed in the center of the screen, it will move away from you to the left when you win and to the right when you lose.</p>
               <p>Virtual racer image from <a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons">Cycling icons created by kosonicon - Flaticon</a></p>
@@ -231,8 +231,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/colorinchis.png" width="200" /></td>
-        <td width="50%"><p>There are 4 colored fields.</p>
+        <td width="30%" ><img src="./images/colorinchis.png" width="200" /></td>
+        <td width="70%"><p>There are 4 colored fields.</p>
        
 * Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
 * Colored heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
@@ -246,8 +246,8 @@ A single field with calories consumpiton estimation, hear rate based
 
 <table border="0">
     <tr>
-        <td width="50%" ><img src="./images/widgetWorkout.png" width="200" /></td>
-        <td width="50%">Vinapp's workout execution screen shows you all the relevant information about your structured training. Workout execution power based or heart rate based are implemented. 
+        <td width="30%" ><img src="./images/widgetWorkout.png" width="200" /></td>
+        <td width="70%">Vinapp's workout execution screen shows you all the relevant information about your structured training. Workout execution power based or heart rate based are implemented. 
         Before starting the workout you will be able to see its graphic design. Once you start the workout, the entire screen is used to show current, previous and next goal, action buttons and power, cadence, pulse and torque data, as well as the average data in each interval. 
         The action buttons allow you to raise or lower the target in line, as well as navigate forward and backward intervals.
         Next to the target power data you will see arrow icons and color codes appear that will indicate if you are below or above the target zone.
