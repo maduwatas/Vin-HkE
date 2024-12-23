@@ -129,8 +129,8 @@ Once Vinapp is installed in karoo, HkE bind a service that sync workout of the d
 
 <table border="0">
     <tr>
-        <td width="30%" ><img src="./images/vinapp.jpg" width="400" /></td>
-        <td width="70%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
+        <td width="50%" ><img src="./images/vinapp.jpg" width="400" /></td>
+        <td width="50%"><p>Vinapp can be installed in any android device with OS version 6.0 or later. In this pic you can see a tablet excuting an ERG mode workout with Vinapp-TV view. This view integrates with youtube player.</p>
               <p>This view is not available for karoo due screen size considerations.</p>
               <p>Vinapp requires an user account in order to share your data between all your devices through cloud.</p>
         </td>
