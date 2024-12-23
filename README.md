@@ -168,8 +168,9 @@ For the Pit Board or workout widget you must choose a full screen graphic field.
 A single field with calories consumpiton estimation, hear rate based
  <p>A little of physics:</p>
        
-* 1W = 1 J/s
-* 1cal = 4.18 J
+* 1W = 1 J/s (power unit)
+* If you push 250W over 4s generate 1kJ of energy
+* 1cal = 4.18 J (energy units)
 * 1kcal = 4.18 kJ
   
 <p>Calories consumption estimation based in power outputs says that 1cal burned = 1 Joule or power output, due to how inefficient we are at producing pedaling power only a 24% of cal burned are transformed on pedaling power output. So, 1kJ = 1kcal, for all the people!! Thats is not truth, is obvious, but is accepted. </p>
