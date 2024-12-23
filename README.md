@@ -143,13 +143,9 @@ Vinapp can manage smart trainers to executing workouts in ERG mode or simulating
 
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
 
-You can download Vinapp apk from here: https://github.com/maduwatas/Vin-HkE/releases/download/Vinapp/Vin-2.799.2024122101-play-release.apk
+You can download Vinapp apk from here: https://github.com/maduwatas/Vin-HkE/releases/download/Vinapp/
 
 <img src="./images/vinFitness.png" width="200" />
-
-You can download Vinapp for karoo with Extensions SDK here: 
-
-https://github.com/maduwatas/Vin-HkE/releases/download/latest/Vin-release.apk
 
 # Extension widgets
 
