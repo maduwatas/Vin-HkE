@@ -39,28 +39,6 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 ### Preferences
 
-#### Training options
-
-<table border="0">
-    <tr>
-        <td width="30%" ><img src="./images/preferencesEn.png" width="200" /></td>
-        <td width="70%">
-
-##### Training system
-Choose Heart rate based or Power based workouts.
-
-##### CTL
-Your chronic training load is a measure of your fitness that is used as a calculation parameter for HkE algorithms. If you don't know this value, you can get it from the statistics functionality of Vinapp or other training platforms. If you install vinapp and synchronize your training history CTL will be updated in a transparent way from Vinapp to HkE when starting your karoo.
-
-##### Power smoothness
-Choose the time interval, in seconds, to measure and average your power before show it in HkE widgets    
-        </td>
-    </tr>
-</table>
-
-##### Power average
-Choose if your power average must be calculated taking account zeros or not.
-
 #### Data fieds
 
 #### Position
@@ -87,6 +65,31 @@ When you start a ride, HkE starts its calculations in the background to obtain r
     </tr>
 </table>
 
+
+#### Training options
+
+<table border="0">
+    <tr>
+        <td width="30%" ><img src="./images/preferencesEn.png" width="200" /></td>
+        <td width="70%">
+
+##### CTL
+Your chronic training load is a measure of your fitness that is used as a calculation parameter for HkE algorithms. If you don't know this value, you can get it from the statistics functionality of Vinapp or other training platforms. If you install vinapp and synchronize your training history CTL will be updated in a transparent way from Vinapp to HkE when starting your karoo.
+
+##### Power smoothness
+Choose the time interval, in seconds, to measure and average your power before show it in HkE widgets    
+        </td>
+    </tr>
+</table>
+
+##### Power average
+Choose if your power average must be calculated taking account zeros or not.
+
+##### Training system
+Choose Heart rate based or Power based workouts.
+
+##### Zone color chart
+Choose the zone color chart that you prefer between karoo style or zwift.
 
 ### Alerts
 
@@ -242,10 +245,11 @@ A single field with calories consumpiton estimation, hear rate based
 <table border="0">
     <tr>
         <td width="30%" ><img src="./images/colorinchis.png" width="200" /></td>
-        <td width="70%"><p>There are 4 colored fields.</p>
+        <td width="70%"><p>There are 5 colored fields.</p>
        
-* Colored power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
-* Colored heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
+* HkE slope: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
+* HkE power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
+* HkE heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
 * Multiple power: shows power output, interval power average and normalized power in a single karoo field. Power zone shows, in each data, through color codes from blue to purple, based in your karoo power zones profile power data.
 * Multiple heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
         </td>
@@ -280,6 +284,20 @@ Your boss will have everything ready when you arrive. How important is it for yo
 Pit board widget requires internet connection though wifi or simcard. If you losses connection Pit board will do automatic reconnection when it has possible. While has internet connection pit board will update in real time. In the future we work in bluetooth link for K3 though Hammerhead Companion app.
 
 We have many ideas to improve this functionality in the future, for example Bluetooth connection throug Companion app, multiple pit box dashboards, allowing an entire team to coordinate from a tablet, a karoo-karoo connection... this has only just begun.
+
+### Pit board configuration options
+
+#### Connection (K3 only)
+Karoo 3 users can choose if his pit board connects to our database through Companion app (bluetooth) or through wifi network. Wifi link implements a realtime connection. When network is available, rider and pit boss receive messages without any delays. Bluetooth link implements an async system to get data from database. Your karoo query every 5 minutes if there are any new message. Responses from rider to pit box are sent witouth delays, if network is available.
+
+K2 only can connect to pit board database through wifi/gsm link, so, this options not shows, and k2 link to pit board will be wifi/gsm.
+
+#### Network loss alert
+You can choose if want network loss-gain little sound alert or not. 
+
+#### Start/stop ride messages
+Your pit board can send automatic messages when you start or terminate a ride.
+
 
 > [!IMPORTANT]
 > When karoo starts a new activity it disable wifi by default. HkE attempts to start wifi but not always get it due operating system restrictions. You will have an advice icon when losses internet access. In the major of case you must activate wifi manually at the start of your ride.
