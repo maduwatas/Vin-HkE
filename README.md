@@ -39,23 +39,6 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 ### Preferences
 
-#### Battery saving options
-
-<table border="0">
-    <tr>
-        <td width="30%" ><img src="./images/preferencesEn2.png" width="200" /></td>
-        <td width="70%">
-
-##### Progress bars
-Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
-
-##### Sensor data capture
-When you start a ride, HkE starts its calculations in the background to obtain real-time data of calories, averages, normalized data... this data is required for some HkE widgets such as power, heart rate or calories. Other functionalities such as alerts, power balance or Pit board do not need these calculations. If you are using a profile without HkE widgets with the background process required, you can disable it to save a small amount of battery. If you start a ride without starting HkE background calculations and later decide choosing an HkE profile some data could not work, due background calculations would not running.
-        </td>
-    </tr>
-</table>
-
-
 #### Training options
 
 <table border="0">
@@ -74,6 +57,36 @@ Choose the time interval, in seconds, to measure and average your power before s
         </td>
     </tr>
 </table>
+
+##### Power average
+Choose if your power average must be calculated taking account zeros or not.
+
+#### Data fieds
+
+#### Position
+
+Select left, center or right gravity for your HkE widgets fields. Ideally this configuration must be reading from karoo profile but, at the moment, it's not working, so, you must configure it twice.
+
+#### Hke field titles
+
+Some widgets in HkE have color background. You can configure if the background fill the title, and title must be rendered each time with the field, or not. Standard titles could save a little of your battery.
+
+#### Battery saving options
+
+<table border="0">
+    <tr>
+        <td width="30%" ><img src="./images/preferencesEn2.png" width="200" /></td>
+        <td width="70%">
+
+##### Progress bars
+Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
+
+##### Sensor data capture
+When you start a ride, HkE starts its calculations in the background to obtain real-time data of calories, averages, normalized data... this data is required for some HkE widgets such as power, heart rate or calories. Other functionalities such as alerts, power balance or Pit board do not need these calculations. If you are using a profile without HkE widgets with the background process required, you can disable it to save a small amount of battery. If you start a ride without starting HkE background calculations and later decide choosing an HkE profile some data could not work, due background calculations would not running.
+        </td>
+    </tr>
+</table>
+
 
 ### Alerts
 
