@@ -78,9 +78,6 @@ Your chronic training load is a measure of your fitness that is used as a calcul
 
 ##### Power smoothness
 Choose the time interval, in seconds, to measure and average your power before show it in HkE widgets    
-        </td>
-    </tr>
-</table>
 
 ##### Power average
 Choose if your power average must be calculated taking account zeros or not.
@@ -90,6 +87,11 @@ Choose Heart rate based or Power based workouts.
 
 ##### Zone color chart
 Choose the zone color chart that you prefer between karoo style or zwift.
+        </td>
+    </tr>
+</table>
+
+
 
 ### Alerts
 
@@ -112,10 +114,10 @@ The alert types available are as follow:
 * Time
 * Maximum pulse
 * Maximum power
-* Calories burned
+* Calories burned (based on kJ if there is a powermeter or based on heart rate estimation else)
 * Grams of Carbohydrates burned
 
-Time and calories alarms allows to allows configure single shot or periodic shots. 
+Time, calories or substrates alarms allows to allows configure single shot or periodic shots. 
 
 Do you want more? Ask me!
 
