@@ -53,8 +53,8 @@ Some widgets in HkE have color background. You can configure if the background f
 
 <table border="0">
     <tr>
-        <td width="30%" ><img src="./images/preferencesEn2.png" width="200" /></td>
-        <td width="70%">
+        <td><img src="./images/preferencesEn2.png" width="200" /></td></tr>
+        <tr><td>
 
 ##### Progress bars
 Some HkE widgets include beautiful and useful progress bars to represent data. Drawing these views on the screen consumes a small amount of battery, which you can save by choosing to hide them.
