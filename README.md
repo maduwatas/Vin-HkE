@@ -89,7 +89,7 @@ Choose Heart rate based or Power based workouts.
 Choose the zone color chart that you prefer between karoo style or zwift.
 
 ##### Climber color chart
-Choose the zone color chart that you prefer between karoo style or HkE proposal. HkE divide zones in 0-3 (blue), 3-6 (green), 6-9 (yellow), 9-12 (brown), 12-15 (orange), 15-20 (red), > 20 purple.
+Choose the zone color chart you prefer between karoo style or HkE proposal, to apply in Slope HkE colored field. HkE divide zones in 0-3 (blue), 3-6 (green), 6-9 (yellow), 9-12 (brown), 12-15 (orange), 15-20 (red), > 20 purple.
         </td>
     </tr>
 </table>
