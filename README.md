@@ -87,6 +87,9 @@ Choose Heart rate based or Power based workouts.
 
 ##### Zone color chart
 Choose the zone color chart that you prefer between karoo style or zwift.
+
+##### Climber color chart
+Choose the zone color chart that you prefer between karoo style or HkE proposal. HkE divide zones in 0-3 (blue), 3-6 (green), 6-9 (yellow), 9-12 (brown), 12-15 (orange), 15-20 (red), > 20 purple.
         </td>
     </tr>
 </table>
@@ -135,6 +138,14 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 <p>Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.</p>
 <p>Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.</p>
 
+### Custom fields
+
+Custom fields | Layout selector
+------------- | ------------- |
+<img src="./images/customfields1.png" width="200" /> | <img src="./images/customfields2.png" width="200" /> 
+
+HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
+
 ### Vinapp Workout
 
 Karoo workout | Vinapp library | Manual workout selection | Vinapp track library 
@@ -143,7 +154,7 @@ Karoo workout | Vinapp library | Manual workout selection | Vinapp track library
 
 Workout widget allows to execute Vinapp workouts in your karoo rideapp. Vin HkE includes a sample workout. Vinapp is a free android app for cycling training and planing with 5 stars in google play. Installing Vinapp, HkE can sync Workout of the Day from Vinapp. User can select any of the hundreds workouts includes in Vin app library or enjoy of his multiple plans.
 
-Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE.
+Once Vinapp is installed in karoo, HkE bind a service that sync workout of the day automatically. If user have not a selected plan Vinapp allows direct selection of any workouts includes in Vinapp with a simple clic on yellow hammerhead logo button and sync it in HkE. 
 
 <table border="0">
     <tr>
