@@ -140,11 +140,19 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 
 ### Custom fields
 
-Custom fields | Layout selector
-------------- | ------------- |
-<img src="./images/customfields1.png" width="200" /> | <img src="./images/customfields2.png" width="200" /> 
+<img src="./images/customfields1.png" width="200" /> | 
 
-HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
+HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. 
+
+#### Layout selector
+
+<img src="./images/customfields2.png" width="200" /> 
+
+For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
+
+#### Example of use
+
+<img src="./images/mapa.png" width="200" /> 
 
 Expand the space available for your map without giving up carrying up to 8 visible data fields.
 
