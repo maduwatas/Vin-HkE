@@ -146,6 +146,8 @@ Custom fields | Layout selector
 
 HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
 
+Expand the space available for your map without giving up carrying up to 8 visible data fields.
+
 ### Vinapp Workout
 
 Karoo workout | Vinapp library | Manual workout selection | Vinapp track library 
