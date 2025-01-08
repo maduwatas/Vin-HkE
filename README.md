@@ -325,6 +325,12 @@ Your pit board can send automatic messages when you start or terminate a ride.
 > [!IMPORTANT]
 > When karoo starts a new activity it disable wifi by default. HkE attempts to start wifi but not always get it due operating system restrictions. You will have an advice icon when losses internet access. In the major of case you must activate wifi manually at the start of your ride.
 
+# HkE translations
+If want contribute with a translation to your language download strings.xml file and translate tags. Contact with me at this git repository or at vinagreapp@gmail.com and I will upload your file in next Vin HkE release. Thanks and happy ride!
+
+# APK
+Download Vinapp HkE here: https://github.com/maduwatas/Vin-HkE/releases/download/latest/
+
 # SDK Implementation details
 
 It is necessary to have the dependency on Hammerhead extensions for Vinapp HkE to work.
@@ -374,10 +380,6 @@ When you start an activity, an object is also started in the Vinapp core that st
 The FIT object can later be used in all the extensions you design without needing to establish dependencies on all the necessary devices. This way your extensions can work even if not all the data they display is being collected. That is, views can use the data collected by their associated Type or consume the DeviceHandler object provided by Vinapp.
 The FIT object allows complex calculations from the collected data.
 
-## APK
-Download Vinapp HkE here: https://github.com/maduwatas/Vin-HkE/releases/download/latest/
 
-## HkE translations
-If want contribute with a translation to your language download strings.xml file and translate tags. Contact with me at this git repository or at vinagreapp@gmail.com and I will upload your file in next Vin HkE release. Thanks and happy ride!
 
 
