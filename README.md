@@ -149,6 +149,7 @@ HkE allows two user fully customizable fields from HkE data fields, Grayson fiel
 <img src="./images/customfields2.png" width="200" /> 
 
 For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
+Tab in a box to select any available field data. Long press in a box to select a custom background color for his field.
 
 #### Example of use
 
