@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="supported_locales">
-        <item>en</item>
-        <item>es</item>
-
-    </string-array>
-
-    <string-array translatable="false" name="alert_types">
-        <item>TIME</item>
-        <item>CALORIES</item>
-        <item>POWER_MAX</item>
-        <item>HR_MAX</item>
-        <item>CH_GRAMS</item>
-   <!--     <item>WBAL</item> TODO hay que implementar el algoritmo de cálculo -->
-    </string-array>
-
     <string-array name="alert_types_description">
         <item>Time (min)</item>
         <item>Calories (kJ)</item>
@@ -22,50 +7,6 @@
         <item>Max hear rate</item>
         <item>Ch grams burned</item>
        <!-- <item>Remaining W\' </item> -->
-    </string-array>
-
-
-    <string-array translatable="false" name="field_contents">
-        <item>VOID</item>
-        <item>POWER</item>
-        <item>HKEPW</item>
-        <item>POWER_AVG</item>
-        <item>POWER_INT</item>
-        <item>POWER_NP</item>
-        <item>TORQUE</item>
-        <item>KJ</item>
-        <item>FAT</item>
-        <item>CARBOHYDRATES</item>
-        <item>CALORIES_HR</item>
-        <item>HR</item>
-        <item>HKEHR</item>
-        <item>HR_AVG</item>
-        <item>HR_INT</item>
-        <item>CADENCE</item>
-        <item>CADENCE_AVG</item>
-        <item>CADENCE_INT</item>
-        <item>DISTANCE</item>
-        <item>DISTANCE_REMAINING</item>
-        <item>SPEED</item>
-        <item>SPEED_AVG</item>
-        <item>ELEVATION</item>
-        <item>ELEVATION_REMAINING</item>
-        <item>GRADE</item>
-      </string-array>
-
-    <string-array translatable="false" name="background_colors">
-        <item>TRANSPARENT</item>
-        <item>GREY</item>
-        <item>BLUE</item>
-        <item>GREEN</item>
-        <item>LIGHT_GREEN</item>
-        <item>YELLOW</item>
-        <item>SWEET</item>
-        <item>ORANGE</item>
-        <item>RED</item>
-        <item>DARK_RED</item>
-        <item>BROWN</item>
-        <item>PURPLE</item>
     </string-array>
 
 
@@ -128,21 +69,6 @@
         <item>Slope</item>
 
 
-    </string-array>
-
-    <string-array translatable="false" name="background_colors_descriptions">
-        <item>Transparent</item>
-        <item>Grey</item>
-        <item>Blue</item>
-        <item>Green</item>
-        <item>Light green</item>
-        <item>Yellow</item>
-        <item>Sweet orange</item>
-        <item>orange</item>
-        <item>Red</item>
-        <item>Dark red</item>
-        <item>Brown</item>
-        <item>Purple</item>
     </string-array>
 
 
