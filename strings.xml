@@ -1,43 +1,74 @@
 <resources>
 
-    <string name="label_box_id" translatable="false">Pit board ID</string>
-    <string name="app_name" translatable="false">Vin HkE</string>
-    <string name="web_vinapp" translatable="false">vinapp.es</string>
-    <string name="nick" translatable="false">Nick</string>
-    <string name="label_normalized_power_short" translatable="false">NP</string>
-    <string name="label_torque" translatable="false">Torque</string>
-    <string name="label_watts_kg" translatable="false">W/kg</string>
-    <string name="label_beer" translatable="false">Club</string>
-    <string name="label_tss" translatable="false">TSS</string>
-    <string name="label_tssc" translatable="false">TSSC</string>
-    <string name="label_tsb" translatable="false">TSB</string>
-    <string name="label_ctl" translatable="false">CTL</string>
-    <string name="label_atl" translatable="false">ATL</string>
-    <string name="label_cil" translatable="false">CIL</string>
-    <string name="label_intensity_factor" translatable="false">IF</string>
-    <string name="label_ftp" translatable="false">FTP (W)</string>
-    <string name="label_tau" translatable="false">τ W\'</string>
-    <string name="label_w_prime" translatable="false">W\' (J)</string>
-    <string name="label_w_bal" translatable="false">W bal</string>
-    <string name="clip_emoji" translatable="false">📋</string>
-    <string name="save_emoji" translatable="false">💾</string>
-    <string name="bpm_emoji" translatable="false">💓</string>
-    <string name="zone_spinning" translatable="false">Spinning</string>
-    <string name="keto" translatable="false">Keto 10–20% CH</string>
-    <string name="lowCarb" translatable="false">Low Carb 20–40%</string>
-    <string name="mediumCarb" translatable="false">Medium Carb 40–60%</string>
-    <string name="highCarb" translatable="false">High Carb 60–80%</string>
-    <string name="label_cadence_units" translatable="false">rpm</string>
-    <string name="ftpPercent" translatable="false">FTP (%)</string>
+   
+    <string-array name="alert_types_description">
+        <item>Time (min)</item>
+        <item>Calories (kJ)</item>
+        <item>Max power output</item>
+        <item>Max hear rate</item>
+        <item>Ch grams burned</item>
+       <!-- <item>Remaining W\' </item> -->
+    </string-array>
 
-    <string name="cadence_interval_0" translatable="false">⚙ %1$s &#10007; %2$d:%3$02d</string>
-    <string name="cadence_interval_1" translatable="false">⚙ %1$s &#10007; %2$d</string>
-    <string name="torque_interval_0" translatable="false">⛓ %1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
-    <string name="torque_interval_1" translatable="false">⛓ %1$s &#10007; %2$d&#10076;</string>
-    <string name="next_interval_0" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
-    <string name="next_interval_1" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;</string>
-    <string name="nex_interval_2" translatable="false">&#10140;%1$s &#10007; %2$d&#x275E;</string>
-    <string name="new_record_message" translatable="false">%1$d W &#10007; %2$s\n</string>
+    <string-array name="field_content_descriptions">
+        <item>Empty</item>
+        <item>Power</item>
+        <item>HkE PW</item>
+        <item>Average Power</item>
+        <item>Lap Power</item>
+        <item>NP</item>
+        <item>Torque</item>
+        <item>kJoules</item>
+        <item>Fat (g)</item>
+        <item>Carbohydrates (g)</item>
+        <item>HR-Calories</item>
+        <item>HR</item>
+        <item>HkE HR</item>
+        <item>Average HR</item>
+        <item>Lap HR</item>
+        <item>Cadence</item>
+        <item>Average Cadence</item>
+        <item>Lap Cadence</item>
+        <item>Distance</item>
+        <item>Dist.Remaining</item>
+        <item>Speed</item>
+        <item>Average Speed</item>
+        <item>Elevation</item>
+        <item>Elev.Remaining</item>
+        <item>Slope</item>
+
+
+    </string-array>
+
+    <string-array name="field_content_descriptions_abridged">
+        <item>Empty</item>
+        <item>Power</item>
+        <item>HkE-PW</item>
+        <item>Av.Power</item>
+        <item>Lap Power</item>
+        <item>NP</item>
+        <item>Torque</item>
+        <item>kJoules</item>
+        <item>Fat (g)</item>
+        <item>Ch (g)</item>
+        <item>HR-Cal.</item>
+        <item>HR</item>
+        <item>HkE-HR</item>
+        <item>Av.HR</item>
+        <item>Lap HR</item>
+        <item>Cadence</item>
+        <item>Av.Cad.</item>
+        <item>Lap Cad.</item>
+        <item>Distance</item>
+        <item>Dist.Rem.</item>
+        <item>Speed</item>
+        <item>Av.Speed</item>
+        <item>Elevation</item>
+        <item>Elev.Rem.</item>
+        <item>Slope</item>
+
+
+    </string-array>
 
     <string name="disconnected">Disconnected</string>
     <string-array name="supported_languages">
@@ -177,7 +208,6 @@
     <string name="zone_endurance">Endurance</string>
     <string name="zone_recovery">Recovery</string>
     <string name="zone_test">Test</string>
-    <string translatable="false" name="zone_ftp">Test FTP</string>
     <string name="zone_rest">Break</string>
     <string name="zone_alt">Altimetry</string>
     <string name="label_settings">Preferences</string>
