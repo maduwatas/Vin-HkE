@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supported_locales">
+        <item>en</item>
+        <item>es</item>
+
+    </string-array>
+
+    <string-array translatable="false" name="alert_types">
+        <item>TIME</item>
+        <item>CALORIES</item>
+        <item>POWER_MAX</item>
+        <item>HR_MAX</item>
+        <item>CH_GRAMS</item>
+   <!--     <item>WBAL</item> TODO hay que implementar el algoritmo de cálculo -->
+    </string-array>
+
+    <string-array name="alert_types_description">
+        <item>Time (min)</item>
+        <item>Calories (kJ)</item>
+        <item>Max power output</item>
+        <item>Max hear rate</item>
+        <item>Ch grams burned</item>
+       <!-- <item>Remaining W\' </item> -->
+    </string-array>
+
+
+    <string-array translatable="false" name="field_contents">
+        <item>VOID</item>
+        <item>POWER</item>
+        <item>HKEPW</item>
+        <item>POWER_AVG</item>
+        <item>POWER_INT</item>
+        <item>POWER_NP</item>
+        <item>TORQUE</item>
+        <item>KJ</item>
+        <item>FAT</item>
+        <item>CARBOHYDRATES</item>
+        <item>CALORIES_HR</item>
+        <item>HR</item>
+        <item>HKEHR</item>
+        <item>HR_AVG</item>
+        <item>HR_INT</item>
+        <item>CADENCE</item>
+        <item>CADENCE_AVG</item>
+        <item>CADENCE_INT</item>
+        <item>DISTANCE</item>
+        <item>DISTANCE_REMAINING</item>
+        <item>SPEED</item>
+        <item>SPEED_AVG</item>
+        <item>ELEVATION</item>
+        <item>ELEVATION_REMAINING</item>
+        <item>GRADE</item>
+      </string-array>
+
+    <string-array translatable="false" name="background_colors">
+        <item>TRANSPARENT</item>
+        <item>GREY</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>LIGHT_GREEN</item>
+        <item>YELLOW</item>
+        <item>SWEET</item>
+        <item>ORANGE</item>
+        <item>RED</item>
+        <item>DARK_RED</item>
+        <item>BROWN</item>
+        <item>PURPLE</item>
+    </string-array>
+
+
+
+    <string-array name="field_content_descriptions">
+        <item>Empty</item>
+        <item>Power</item>
+        <item>HkE PW</item>
+        <item>Average Power</item>
+        <item>Lap Power</item>
+        <item>NP</item>
+        <item>Torque</item>
+        <item>kJoules</item>
+        <item>Fat (g)</item>
+        <item>Carbohydrates (g)</item>
+        <item>HR-Calories</item>
+        <item>HR</item>
+        <item>HkE HR</item>
+        <item>Average HR</item>
+        <item>Lap HR</item>
+        <item>Cadence</item>
+        <item>Average Cadence</item>
+        <item>Lap Cadence</item>
+        <item>Distance</item>
+        <item>Dist.Remaining</item>
+        <item>Speed</item>
+        <item>Average Speed</item>
+        <item>Elevation</item>
+        <item>Elev.Remaining</item>
+        <item>Slope</item>
+
+
+    </string-array>
+
+    <string-array name="field_content_descriptions_abridged">
+        <item>Empty</item>
+        <item>Power</item>
+        <item>HkE-PW</item>
+        <item>Av.Power</item>
+        <item>Lap Power</item>
+        <item>NP</item>
+        <item>Torque</item>
+        <item>kJoules</item>
+        <item>Fat (g)</item>
+        <item>Ch (g)</item>
+        <item>HR-Cal.</item>
+        <item>HR</item>
+        <item>HkE-HR</item>
+        <item>Av.HR</item>
+        <item>Lap HR</item>
+        <item>Cadence</item>
+        <item>Av.Cad.</item>
+        <item>Lap Cad.</item>
+        <item>Distance</item>
+        <item>Dist.Rem.</item>
+        <item>Speed</item>
+        <item>Av.Speed</item>
+        <item>Elevation</item>
+        <item>Elev.Rem.</item>
+        <item>Slope</item>
+
+
+    </string-array>
+
+    <string-array translatable="false" name="background_colors_descriptions">
+        <item>Transparent</item>
+        <item>Grey</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Light green</item>
+        <item>Yellow</item>
+        <item>Sweet orange</item>
+        <item>orange</item>
+        <item>Red</item>
+        <item>Dark red</item>
+        <item>Brown</item>
+        <item>Purple</item>
+    </string-array>
+
+
+</resources>

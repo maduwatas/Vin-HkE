@@ -1,0 +1,280 @@
+<resources>
+
+    <string name="label_box_id" translatable="false">Pit board ID</string>
+    <string name="app_name" translatable="false">Vin HkE</string>
+    <string name="web_vinapp" translatable="false">vinapp.es</string>
+    <string name="nick" translatable="false">Nick</string>
+    <string name="label_normalized_power_short" translatable="false">NP</string>
+    <string name="label_torque" translatable="false">Torque</string>
+    <string name="label_watts_kg" translatable="false">W/kg</string>
+    <string name="label_beer" translatable="false">Club</string>
+    <string name="label_tss" translatable="false">TSS</string>
+    <string name="label_tssc" translatable="false">TSSC</string>
+    <string name="label_tsb" translatable="false">TSB</string>
+    <string name="label_ctl" translatable="false">CTL</string>
+    <string name="label_atl" translatable="false">ATL</string>
+    <string name="label_cil" translatable="false">CIL</string>
+    <string name="label_intensity_factor" translatable="false">IF</string>
+    <string name="label_ftp" translatable="false">FTP (W)</string>
+    <string name="label_tau" translatable="false">τ W\'</string>
+    <string name="label_w_prime" translatable="false">W\' (J)</string>
+    <string name="label_w_bal" translatable="false">W bal</string>
+    <string name="clip_emoji" translatable="false">📋</string>
+    <string name="save_emoji" translatable="false">💾</string>
+    <string name="bpm_emoji" translatable="false">💓</string>
+    <string name="zone_spinning" translatable="false">Spinning</string>
+    <string name="keto" translatable="false">Keto 10–20% CH</string>
+    <string name="lowCarb" translatable="false">Low Carb 20–40%</string>
+    <string name="mediumCarb" translatable="false">Medium Carb 40–60%</string>
+    <string name="highCarb" translatable="false">High Carb 60–80%</string>
+    <string name="label_cadence_units" translatable="false">rpm</string>
+    <string name="ftpPercent" translatable="false">FTP (%)</string>
+
+    <string name="cadence_interval_0" translatable="false">⚙ %1$s &#10007; %2$d:%3$02d</string>
+    <string name="cadence_interval_1" translatable="false">⚙ %1$s &#10007; %2$d</string>
+    <string name="torque_interval_0" translatable="false">⛓ %1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
+    <string name="torque_interval_1" translatable="false">⛓ %1$s &#10007; %2$d&#10076;</string>
+    <string name="next_interval_0" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
+    <string name="next_interval_1" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;</string>
+    <string name="nex_interval_2" translatable="false">&#10140;%1$s &#10007; %2$d&#x275E;</string>
+    <string name="new_record_message" translatable="false">%1$d W &#10007; %2$s\n</string>
+
+    <string name="disconnected">Disconnected</string>
+    <string-array name="supported_languages">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="waste_g">FAT/CH(g)</string>
+    <string name="waste_fat_g">FAT (g)</string>
+    <string name="caloric_waste_hr">Caloric Distr. (HR)</string>
+    <string name="selected_workout">Selected workout</string>
+    <string name="label_virtual_partner">Virtual racer</string>
+    <string name="label_user_profile">User profile</string>
+    <string name="label_power_data">Power thresholds</string>
+    <string name="label_hr_thresholds">Heart rate thresholds</string>
+    <string name="alert_title">Alert title</string>
+    <string name="alert_detail">Alert details</string>
+    <string name="extension_started">Vin extension started</string>
+    <string name="no_message_text">No message</string>
+    <string name="label_zone">Z\nO\nN\nE</string>
+    <string name="warning_vinapp_missing">You are not connected to Vinapp. Install vinapp to be able to select your workout of the day automatically from your plan or choose the one you prefer in the Vinapp library.</string>
+    <string name="label_workout_selected">Vinapp Workout</string>
+    <string name="label_chalkboard">Pit board</string>
+    <string name="label_chalkboard_qr">Create pit board</string>
+    <string name="connect_chalkboard">Scan the QR code to obtain the url of your pit board and press to start it</string>
+    <string name="on_ride">On ride</string>
+    <string name="calories_hr">Calories HR</string>
+    <string name="label_box_id_reset">Pit board ID updated. You must generate new links for your pìt boards</string>
+    <string name="network_alert">Network loss alert</string>
+    <string name="label_height">HEIGHT (cm)</string>
+    <string name="label_height_ft">HEIGHT (ft)</string>
+    <string name="edit_data_karoo">This data is editable only in your karoo user profile</string>
+    <string name="label_progress_bars">Progress bars</string>
+    <string name="label_data_restricted">Sensor data capture</string>
+    <string name="always_active">Always active</string>
+    <string name="restricted">Restricted</string>
+    <string name="battery_saving">Battery saving</string>
+    <string name="data_active_message">Allows switching to a HkE profile while an activity is running.</string>
+    <string name="data_restricted_message">Does not allows switching to a HkE profile while an activity is running.</string>
+    <string name="powerbars_yes_message">Show progress bars on widgets</string>
+    <string name="powerbars_no_message">Hide progress bars on widgets</string>
+    <string name="label_history_box">Pit board History</string>
+    <string name="virtual_partner">Virtual racer</string>
+    <string name="starting_ride">Starting ride at %1$s</string>
+    <string name="finishing_ride">Ride finished at %1$s</string>
+    <string name="single">Single shot</string>
+    <string name="repeat">Periodic</string>
+    <string name="periodicity_alert">Periodicidad</string>
+    <string name="label_colored_power">HkE Power</string>
+    <string name="label_colored_hr">HkE HR</string>
+    <string name="label_multi_power">Multi PW</string>
+    <string name="label_multi_hr">Multi HR</string>
+    <string name="connection">Connection</string>
+    <string name="start_stop_messages">Start/Stop ride messages</string>
+    <string name="data_fields">Data fields</string>
+    <string name="label_position">Position</string>
+    <string name="position_left">Left</string>
+    <string name="position_right">Right</string>
+    <string name="position_centered">Centered</string>
+    <string name="title_hke">HkE</string>
+    <string name="title_standard">Standard</string>
+    <string name="label_fields_title">HkE field titles</string>
+    <string name="custom_field">Custom fields</string>
+    <string name="custom_field_available">Available data fields</string>
+    <string name="custom_color_available">Available background colors</string>
+    <string name="layout">Layout</string>
+    <string name="zone_colors">Zone color chart</string>
+    <string name="label_power_average">Power Average</string>
+    <string name="label_with_0">With zeros</string>
+    <string name="label_without_0">No zeros</string>
+    <string name="label_color_gradient">Gradient</string>
+    <string name="label_solid">Solid</string>
+    <string name="climber_colors">Climber color chart</string>
+    <string name="label_about">About Vin HkE…</string>
+    <string name="label_donate">Buy me a beer</string>
+    <string name="label_help">HkE Help</string>
+    <string name="grayson_field">Grayson field</string>
+    <string name="vanesa_field">Vanesa field</string>
+    <string name="custom_field_help_tap">Tap a box to select a data field</string>
+    <string name="custom_field_help_press">Long press in a box to select the background color</string>
+    <string name="label_write_to_filter">Write here to filter</string>
+    <string name="label_library">Library</string>
+    <string name="label_import">Import</string>
+    <string name="label_track">Course</string>
+    <string name="label_workout">Workout</string>
+    <string name="label_altimetry">Altimetry</string>
+    <string name="label_workouts">Workouts</string>
+    <string name="label_week_workouts">Workouts per week</string>
+    <string name="label_tracks">Tracks</string>
+    <string name="label_target">Target Power</string>
+    <string name="label_target_grade">Slope Tune</string>
+    <string name="label_power">Power</string>
+    <string name="label_target_hr">Target HR</string>
+    <string name="label_speed">Speed</string>
+    <string name="label_speed_factor">Speed Factor</string>
+    <string name="label_type">Type</string>
+    <string name="label_subtype">Subtype</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_virtual_distance">Virtual Distance</string>
+    <string name="label_grade_average">Average Slope (%)</string>
+    <string name="label_grade_max">Maximum Slope (%)</string>
+    <string name="label_length">Length (km)</string>
+    <string name="label_interval">Lap</string>
+    <string name="label_average">Average</string>
+    <string name="label_power_smoothnes">POWER SMOOTHNESS (s)</string>
+    <string name="label_normalized_power">Normalized Power</string>
+    <string name="label_power_max">Max Power</string>
+    <string name="label_hrTss">HR TSS</string>
+    <string name="zone_notfound">Not found</string>
+    <string name="label_intensity">Intensity</string>
+    <string name="label_elevation">Elevation</string>
+    <string name="label_track_index">Coefficient</string>
+    <string name="label_max_elevation">Maximum Altitude</string>
+    <string name="label_min_elevation">Minimum Altitude</string>
+    <string name="label_ascend">Ascend</string>
+    <string name="label_descend">Descend</string>
+    <string name="label_power_lap">Power Lap</string>
+    <string name="label_torque_lap">Torque Lap</string>
+    <string name="label_hr_average">HR Average</string>
+    <string name="label_hr_lap">HR Lap</string>
+    <string name="label_lap">Lap</string>
+    <string name="label_hr">HR</string>
+    <string name="label_cadence">Cadence</string>
+    <string name="label_calories">Calories</string>
+    <string name="label_calories_hke">Calories HkE</string>
+    <string name="label_calories_MET">Calories / MET</string>
+
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="zone_neuromuscular">Neuromuscular</string>
+    <string name="zone_anaerobic">Anaerobic</string>
+    <string name="zone_vomax">VO2 max</string>
+    <string name="zone_threshold">Threshold</string>
+    <string name="thresholds">Thresholds</string>
+    <string name="zone_sweetspot">Sweet Spot</string>
+    <string name="zone_tempo">Tempo</string>
+    <string name="zone_endurance">Endurance</string>
+    <string name="zone_recovery">Recovery</string>
+    <string name="zone_test">Test</string>
+    <string translatable="false" name="zone_ftp">Test FTP</string>
+    <string name="zone_rest">Break</string>
+    <string name="zone_alt">Altimetry</string>
+    <string name="label_settings">Preferences</string>
+    <string name="label_alarm">Alerts</string>
+    <string name="label_nutrition">Nutrition</string>
+    <string name="diet_message3">In the estimation table you can see some typical values of caloric expenditure and energy substrates used for a one-hour workout at different intensities.\n\nIf you alter configuration values you will see the changes reflected in the estimate.</string>
+
+    <string name="label_options">Options</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_hide">Hide</string>
+    <string name="label_show">Show</string>
+    <string name="label_next">Next</string>
+    <string name="label_no">No</string>
+    <string name="label_hrMax">HR Max</string>
+    <string name="label_hrThreshold">HR Threshold</string>
+    <string name="label_weight">WEIGHT (kg)</string>
+    <string name="label_weight_lb">WEIGHT (lb)</string>
+    <string name="label_age">Age</string>
+    <string name="label_description">Description</string>
+    <string name="waste_fat">Fat(g)</string>
+    <string name="waste_ch">Carbohydrate</string>
+    <string name="waste_prot">BCAA</string>
+    <string name="caloric_waste">Caloric distribution</string>
+    <string name="caloric_expenditure">Estimated caloric expenditure</string>
+    <string name="today_waste">Estimated spending for today</string>
+    <string name="label_total">Total</string>
+    <string name="label_basal">Basal</string>
+    <string name="label_training">Training</string>
+    <string name="diet_table_message1">In this table you can see the estimated calorie consumption for your training plan for two weeks before and after the current date\n\nUse the filter button to get results for other dates.</string>
+    <string name="label_diet">Diet type</string>
+    <string name="label_job_activity">Physical intensity professional activity</string>
+    <string name="job_text_0">Telecommuting</string>
+    <string name="job_text_1">Working in an office, attend class</string>
+    <string name="job_text_2">Trucker, waiter, household</string>
+    <string name="job_text_3">Heavy Equipment Operator, Police, Taxi Driver</string>
+    <string name="job_text_4">Welder, carpenter</string>
+    <string name="job_text_5">Trainer, Physiotherapist</string>
+    <string name="job_text_6">Construction, Miner</string>
+    <string name="job_text_7">Farmer, sailor</string>
+    <string name="job_text_8">Heavy Tool Operator</string>
+    <string name="job_text_9">Firefighter, Mountain Rescue</string>
+
+    <string name="label_trainingSystem">Training System</string>
+    <string name="label_trainingSystemPower">Power</string>
+    <string name="label_trainingSystemHR">Heart Rate</string>
+    <string name="label_sex">Gender</string>
+    <string name="label_powerBalance">Pedaling balance</string>
+
+    <string name="label_gradient">Slope</string>
+    <string name="label_pc">Critical Power</string>
+    <string name="made_in">Made in Extremadura</string>
+    <string name="created_with_vin">Created with Vin</string>
+    <string name="delete_events">Deleting old events from %1$s…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="mandatory_user_data">Mandatory values are missing or incorrect</string>
+    <string name="success_operation">Success operation</string>
+    <string name="connect">Connect</string>
+    <string name="label_no_data">No data</string>
+    <string name="empty">No results</string>
+    <string name="hr_anaerobic">ALL OUT!!</string>
+    <string name="hr_neuromuscular">SPRINT!</string>
+    <string name="zone_outdoor">Outdoor</string>
+    <string name="zone_gym">Gym</string>
+    <string name="label_gps">Use GPS</string>
+    <string name="zone_free">Free ride</string>
+    <string name="zone_running">Running</string>
+    <string name="zone_swimming">Swimming</string>
+    <string name="interval_duration">%1$d minutes with  %2$d intervals</string>
+
+
+    <string name="test_description">
+        "Pedal maintaining target power to your maximum effort. "
+        "I will increase the power in intervals of approximately 7% of your FTP.\n\n"
+        "When you can't anymore just stop pedaling and drop the power to 0. I'll detect it and activate "
+        "recovery phase.\n\n"
+        "Your new FTP will be calculated based on your best minute of effort."
+
+    </string>
+    <string name="lambert_description">
+        "Lambert test allows you to estimate your fitness and recovery periodically and non-invasively "
+        "Pedal following the target power trying to keep your pulse in the indicated range by modulating your cadence. "
+        "Baldomero will save your data at each of the relevant intervals so that you can compare it with your previous results.\n\n"
+        "It is important to complete the test without stops and without shortening any interval "
+    </string>
+    <string name="test20_description">
+        "Warn up your self with short intervals and 5 minutes interval lightly over your FTP. "
+        "The target power in each is indicative based in your previous FTP.\n\n"
+        "You must pedaling hard 20 minutes effort to register power average "
+        "Your new FTP will be calculated based on your best 20 minute of effort."
+    </string>
+    <string name="units_bpm">bpm</string>
+    <string name="test_description_ppm">"Although the ramp test is designed to be done by power, it can also be done by pulse if you don\'t have a potentiometer or virtual roller.\n\n"
+        "Start pedaling for 5 minutes at a comfortable pace. Increase the speed 2 km/h and hold it every minute until you can\'t do it anymore\n\n"
+        "When you can\'t anymore just stop pedaling and save your workout.\n\n"
+        "You must calculate your new Threshold by looking at the pulse curve that your activity has recorded, it will be the point at which a plateau is seen."</string>
+    <string name="show_more">Show more</string>
+    <string name="alert_message_help">Enter a custom message or leave it blank if you prefer only an audible alert, no popup</string>
+
+
+</resources>
