@@ -153,9 +153,11 @@ Tab in a box to select any available field data. Long press in a box to select a
 
 #### Example of use
 
+Add your customs fields, Vanesa and or Grayson, to any karoo profile just like others standard or HkE fields.
+
 <img src="./images/mapa.png" width="200" /> 
 
-Expand the space available for your map without giving up carrying up to 8 visible data fields.
+ Expand the space available for your map without giving up carrying up to 8 visible data fields.
 
 ### Vinapp Workout
 
