@@ -332,7 +332,7 @@ Your pit board can send automatic messages when you start or terminate a ride.
 If want contribute with a translation to your language download strings.xml file and translate tags. Contact with me at this git repository or at vinagreapp@gmail.com and I will upload your file in next Vin HkE release. Thanks and happy ride!
 
 # APK
-Download Vinapp HkE here: https://github.com/maduwatas/Vin-HkE/releases/download/latest/
+Download Vinapp HkE here: https://github.com/maduwatas/Vin-HkE/releases/tag/latest
 
 # SDK Implementation details
 
