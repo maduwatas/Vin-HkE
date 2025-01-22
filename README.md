@@ -138,7 +138,7 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 
 <img src="./images/customfields1.png" width="200" /> | 
 
-HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. 
+HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. Since 1.2.8 release there are two fields more, Lucy and Leonardo.
 
 #### Layout selector
 
