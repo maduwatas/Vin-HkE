@@ -41,10 +41,6 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 #### Data fieds
 
-#### Position
-
-Select left, center or right gravity for your HkE widgets fields. Ideally this configuration must be reading from karoo profile but, at the moment, it's not working, so, you must configure it twice.
-
 #### Hke field titles
 
 Some widgets in HkE have color background. You can configure if the background fill the title, and title must be rendered each time with the field, or not. Standard titles could save a little of your battery.
