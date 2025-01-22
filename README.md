@@ -269,7 +269,7 @@ A single field with calories consumpiton estimation, hear rate based
         <td><img src="./images/colorinchis.png" width="200" /></td></tr>
         <tr><td><p>There are 5 colored fields.</p>
        
-* HkE slope: shows grade. Grade zone shows through color codes from blue to purple, based in your karoo power zones profile.  You cal switch between karoo standard color chart or HkE custom color chart.
+* HkE slope: shows elevation grade. Grade zone shows through color codes from blue to purple. You can switch between karoo standard color chart or HkE custom color chart.
 * HkE power: shows power output and power zone. Power zone shows through color codes from blue to purple, based in your karoo power zones profile.
 * HkE heart rate: shows hear rate output and heart rate zone. Heart rate zone shows through color codes from blue to purple, based in your karoo hear rate zones profile.
 * Multiple power: shows power output, interval power average and normalized power in a single karoo field. Power zone shows, in each data, through color codes from blue to purple, based in your karoo power zones profile power data.
