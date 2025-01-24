@@ -98,6 +98,10 @@ Choose the zone color chart you prefer between karoo style or HkE proposal, to a
 
 HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. Since 1.2.8 release there are two fields more, Lucy and Leonardo.
 
+<img src="./images/vanesa.png" width="200" /> | 
+
+For each custom field you can select your preferred layout. Tab on a field to select a data source. Long press on a field to select background color.
+
 ### Alerts
 
 Alert list | Create or update alert | Delete alert
