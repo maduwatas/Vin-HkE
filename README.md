@@ -187,6 +187,8 @@ You can download Vinapp apk from here: [https://github.com/maduwatas/Vin-HkE/rel
 
 <img src="./images/vinFitness.png" width="200" />
 
+To use Vinapp as workout executor or track simulator you must connect your smart trainer through bluetooh to your karoo first. Next step is to open Vinapp workout or track simulator and push antenne button. Find your smart trainer again and select it. Done, no more connections are need. Devices data gets from your karoo and vinapp controls your smart trainer to adjunst his resistance. Click play and enjoy. 
+
 # Extension widgets
 
 <img src="./images/profileHke.png" width="200" />
