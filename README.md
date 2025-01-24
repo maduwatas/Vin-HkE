@@ -98,9 +98,20 @@ Choose the zone color chart you prefer between karoo style or HkE proposal, to a
 
 HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. Since 1.2.8 release there are two fields more, Lucy and Leonardo.
 
-<img src="./images/vanesa.png" width="200" /> | 
+#### Layout selector
 
-For each custom field you can select your preferred layout. Tab on a field to select a data source. Long press on a field to select background color.
+<img src="./images/vanesa.png" width="200" /> 
+
+For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
+Tab in a box to select any available field data. Long press in a box to select a custom background color for his field.
+
+#### Example of use
+
+Add your customs fields, Vanesa and or Grayson, to any karoo profile just like others standard or HkE fields.
+
+<img src="./images/mapa.png" width="200" /> 
+
+ Expand the space available for your map without giving up carrying up to 8 visible data fields.
 
 ### Alerts
 
@@ -143,21 +154,6 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 <p>Connect buttom creates a QR code to share with your pit boss.</p>
 <p>Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.</p>
 <p>Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.</p>
-
-#### Layout selector
-
-<img src="./images/customfields2.png" width="200" /> 
-
-For each of them, you must select a layout with 3, 4, 5 or 6 fields and within each layout, a data field for each socket. To attach your custom fields in a Karol profile you must choose the Grayson field and/or the Vanesa field.
-Tab in a box to select any available field data. Long press in a box to select a custom background color for his field.
-
-#### Example of use
-
-Add your customs fields, Vanesa and or Grayson, to any karoo profile just like others standard or HkE fields.
-
-<img src="./images/mapa.png" width="200" /> 
-
- Expand the space available for your map without giving up carrying up to 8 visible data fields.
 
 ### Vinapp Workout
 
