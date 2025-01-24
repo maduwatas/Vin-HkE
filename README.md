@@ -45,6 +45,7 @@ Some data are imported from the karoo user profile. This data is not editable, a
 
 Some widgets in HkE have color background. You can configure if the background fill the title, and title must be rendered each time with the field, or not. Standard titles could save a little of your battery.
 
+
 #### Battery saving options
 
 <table border="0">
@@ -91,6 +92,11 @@ Choose the zone color chart you prefer between karoo style or HkE proposal, to a
 </table>
 
 
+### Custom fields
+
+<img src="./images/customfields1.png" width="200" /> | 
+
+HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. Since 1.2.8 release there are two fields more, Lucy and Leonardo.
 
 ### Alerts
 
@@ -133,12 +139,6 @@ In the pit board window you can capture a QR code to obtain a link to the websit
 <p>Connect buttom creates a QR code to share with your pit boss.</p>
 <p>Pit board ID buttom shows your unique ID. This ID is codificated in QR code and used to authenticate sessions in pit board web app.</p>
 <p>Pit history shows in a list your last received messages while riding. This history will be deleted automatically after a few days.</p>
-
-### Custom fields
-
-<img src="./images/customfields1.png" width="200" /> | 
-
-HkE allows two user fully customizable fields from HkE data fields, Grayson field and Vanesa field. Since 1.2.8 release there are two fields more, Lucy and Leonardo.
 
 #### Layout selector
 
