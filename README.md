@@ -179,6 +179,8 @@ You can decide use Vinapp directly like workout executor. Vinapp have a powerful
 
 Vinapp can manage smart trainers to executing workouts in ERG mode or simulating your favorite traks, from gpx files or from its library. In order to Vinapp take the control of your smart trainer you must link it to Vinapp by pushing antenne button inside its workout executor, or its tracks simulator. Take the control of smart trainers is not possible thoug Extensions SDK. 
 
+<img src="./images/alpe.png" width="200" /> 
+
 Vinapp has advanced statistics to track your training loads and plan your fitness peak accordingly. Vin Hke + Vinapp is a winner combo for karoo.
 
 You can download Vinapp apk from here: [https://github.com/maduwatas/Vin-HkE/releases/download/Vinapp/](https://github.com/maduwatas/Vin-HkE/releases/tag/Vinapp)
