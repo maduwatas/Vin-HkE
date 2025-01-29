@@ -216,15 +216,15 @@ A single field with calories consumpiton estimation, hear rate based
 <p>Training status, age, weigth, sex, ambiental enviroment... are parameters that must be taken account to an accurate algorithm. Estimating calories on heart rate though complex algorithms that take acount all these parameters is possible and HkE do it. You must configure your biometrics parameters in HkE user profile to get accurate estimations. Sex, heigth, weigth, heart rate threshold, VO2Max (estimated from FTP), maximum heart rate and training status (CTL) are the key parameters</p>
 <p>To know more read here: https://www.omnicalculator.com/sports/calories-burned-by-heart-rate</p>
 
-## VAM and VAM-Wkg
+## VAM and VAM-W/kg
 
 Velocità Ascensionale Media (VAM), measures the average rate of climb in a lap.
 
 VAM = metres ascended / hour
 
-VAM-Wkg is a estimation of your performance in W/kg in same lap.
+VAM-W/kg is a estimation of your uphill performance, in W/kg, in same lap.
 
-VAM-Wkg = VAM / Gradient factor
+VAM-W/kg = VAM / Gradient factor
 
 with
 
