@@ -86,7 +86,7 @@ Choose Heart rate based or Power based workouts.
 Choose the zone color chart that you prefer between karoo style or zwift.
 
 ##### Climber color chart
-Choose the zone color chart you prefer between karoo style or HkE proposal, to apply in Slope HkE colored field. HkE divide zones in 0-3 (blue), 3-6 (green), 6-9 (yellow), 9-12 (brown), 12-15 (orange), 15-20 (red), > 20 purple.
+Choose the zone color chart you prefer between karoo style, HkE proposal, to apply in Slope HkE colored field. HkE divide zones in 0-3 (blue), 3-6 (green), 6-9 (yellow), 9-12 (brown), 12-15 (orange), 15-20 (red), > 20 purple. Select NO to fixed transparent background.
         </td>
     </tr>
 </table>
@@ -216,6 +216,22 @@ A single field with calories consumpiton estimation, hear rate based
 <p>Training status, age, weigth, sex, ambiental enviroment... are parameters that must be taken account to an accurate algorithm. Estimating calories on heart rate though complex algorithms that take acount all these parameters is possible and HkE do it. You must configure your biometrics parameters in HkE user profile to get accurate estimations. Sex, heigth, weigth, heart rate threshold, VO2Max (estimated from FTP), maximum heart rate and training status (CTL) are the key parameters</p>
 <p>To know more read here: https://www.omnicalculator.com/sports/calories-burned-by-heart-rate</p>
 
+## VAM and VAM-Wkg
+
+Velocità Ascensionale Media (VAM), measures the average rate of climb in a lap.
+
+VAM = metres ascended / hour
+
+VAM-Wkg is a estimation of your performance in W/kg in same lap.
+
+VAM-Wkg = VAM / Gradient factor
+
+with
+
+Gradient factor = 100 x 2 + (% grade / 10)
+
+Push in lap button to reset your VAM and VAM-Wkg measurements when starting a climb.
+
 ## Graphical Power
 
 <table border="0">
@@ -225,6 +241,14 @@ A single field with calories consumpiton estimation, hear rate based
     </tr>
 </table>
  | 
+## Continuous Power Graph
+
+A power graph againts elapsed time, updated every short time interval. Tap on graph to switch the time axis length between 10, 30, 60 minutes or all the activity. Power intervals changes his color based on power zone.
+
+## Continuous heart rate Graph
+
+A heart rate graph againts elapsed time, updated every short time interval. Tap on grapp to switch the time axis between 10, 30, 60 minutes or all the activity.
+
 
 ## Graphical Hear rate
 
