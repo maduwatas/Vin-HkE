@@ -101,7 +101,9 @@ Add your customs fields, Vanesa and or Grayson, to any karoo profile just like o
 
 <img src="./images/mapa.png" width="200" /> 
 
- Expand the space available for your map without giving up carrying up to 8 visible data fields.
+Expand the space available for your map without giving up carrying up to 8 visible data fields.
+
+Different profiles are just to group fields together and all render the same way.
 
 ### Alerts
 
