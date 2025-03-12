@@ -105,6 +105,10 @@ Expand the space available for your map without giving up carrying up to 8 visib
 
 Different profiles are just to group fields together and all render the same way.
 
+if you are a K2 user and put too many custom fields in a ride profile your debice could be freeze. To skip it select a slow refresh rate for fields group that not need instant measuring.
+
+You can select if your customizable field groups shows titles for individual field or not, for each custom field, throuw the "Show Hke titles" selector.
+
 ### Alerts
 
 Alert list | Create or update alert | Delete alert
