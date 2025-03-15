@@ -135,6 +135,8 @@ The alert types available are as follow:
 
 Time, calories or substrates alarms allows to allows configure single shot or periodic shots. 
 
+Each alert with message text can show a popup message into your rideapp screen. You can configure if the popup shows or not, how time will be show or whether you'll have to tap it to hide it.
+
 Do you want more? Ask me!
 
 ### Pit board
