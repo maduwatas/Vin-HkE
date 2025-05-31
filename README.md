@@ -284,6 +284,8 @@ A heart rate graph againts elapsed time, updated every short time interval. Tap 
         <tr><td><p>You'll Never Walk Alone!</p>
         <p>If you are one of those guys who like to compete even againts your shadow, you are in luck. With the virtual racer you will always have someone to chase or leave behind</p>
         <p>Set your opponent's instant speed using the - + buttons to the left and right of their current speed. At each moment you can see how far apart you are with the distance and time values. When you are together the virtual racer icon will be displayed in the center of the screen, it will move away from you to the left when you win and to the right when you lose.</p>
+              
+               <p>Double tap on racer row reset the gap.</p>
               <p>Virtual racer image from <a href="https://www.flaticon.com/free-icons/cycling" title="cycling icons">Cycling icons created by kosonicon - Flaticon</a></p>
         </td>
     </tr>
