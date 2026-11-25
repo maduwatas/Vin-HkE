@@ -1,15 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alert_types_description">
+    <string-array name="supported_locales">
+        <item>en</item>
+        <item>es</item>
+        <item>de</item>
+        <item>ko</item>
+    </string-array>
+
+    <string-array translatable="false" name="alert_type">
+        <item>TIME</item>
+        <item>CALORIES</item>
+        <item>POWER_MAX</item>
+        <item>HR_MAX</item>
+        <item>CH_GRAMS</item>
+        <item>GEAR_MAX</item>
+        <item>GEAR_MIN</item>
+        <item>DISTANCE</item>
+        <item>WBAL</item>
+        <item>WALK_RUN</item>
+    </string-array>
+
+    <string-array name="background_colors_descriptions">
+        <item>No border</item>
+        <item>Transparent</item>
+        <item>Grey</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Light green</item>
+        <item>Yellow</item>
+        <item>Sweet orange</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Dark red</item>
+        <item>Brown</item>
+        <item>Purple</item>
+    </string-array>
+
+
+
+    <string-array translatable="false" name="field_contents">
+        <item>VOID</item>
+        <item>POWER</item>
+        <item>HKEPW</item>
+        <item>POWER_AVG</item>
+        <item>POWER_INT</item>
+        <item>POWER_NP</item>
+        <item>FTP</item>
+        <item>IF</item>
+        <item>WKG</item>
+        <item>TORQUE</item>
+        <item>WBAL</item>
+        <item>TSS</item>
+        <item>TSS_HR</item>
+        <item>KJ</item>
+        <item>FAT</item>
+        <item>CARBOHYDRATES</item>
+        <item>CALORIES_HR</item>
+        <item>HR</item>
+        <item>HKEHR</item>
+        <item>HR_AVG</item>
+        <item>HR_INT</item>
+        <item>HRM</item>
+        <item>CADENCE</item>
+        <item>CADENCE_AVG</item>
+        <item>CADENCE_INT</item>
+        <item>DISTANCE</item>
+        <item>ODOMETER</item>
+        <item>DISTANCE_REMAINING</item>
+        <item>SPEED</item>
+        <item>SPEED_AVG</item>
+        <item>PACE</item>
+        <item>PACE_AVG</item>
+        <item>PACE_LAP</item>
+        <item>VAM</item>
+        <item>VAM_WKG</item>
+        <item>ELEVATION</item>
+        <item>ELEVATION_REMAINING</item>
+        <item>GRADE</item>
+        <item>BALANCE</item>
+        <item>RIGHT_PEDAL_SMOOTHNESS</item>
+        <item>LEFT_PEDAL_SMOOTHNESS</item>
+        <item>RIGHT_TORQUE_EFFECTIVENESS</item>
+        <item>LEFT_TORQUE_EFFECTIVENESS</item>
+        <item>FRONT_GEAR</item>
+        <item>REAR_GEAR</item>
+        <item>GEARS_FR</item>
+        <item>FRONT_GEAR_TEETH</item>
+        <item>REAR_GEAR_TEETH</item>
+        <item>FRONT_REAR_GEAR_TEETH</item>
+        <item>BATTERY_FD</item>
+        <item>BATTERY_RD</item>
+        <item>BATTERY_GEARS</item>
+        <item>TEMPERATURE</item>
+        <item>HEADWIND</item>
+        <item>HEADWIND_SIMPLE</item>
+        <item>WIND</item>
+        <item>TIRE_PRESSURE_FRONT</item>
+        <item>TIRE_PRESSURE_REAR</item>
+        <item>TIRE_PRESSURE_FRONT_BAR</item>
+        <item>TIRE_PRESSURE_REAR_BAR</item>
+        <item>BEARING</item>
+        <item>SUSPENSION_STATE_FRONT</item>
+        <item>SUSPENSION_STATE_REAR</item>
+        <item>SUSPENSION_MODE</item>
+        <item>SUSPENSION_EFFORT_ZONE</item>
+        <item>SUSPENSION_BIAS</item>
+        <item>SUSPENSION_LSC_FRONT</item>
+        <item>SUSPENSION_LSC_REAR</item>
+        <item>SUSPENSION_COUNT_FRONT</item>
+        <item>SUSPENSION_COUNT_REAR</item>
+        <item>SUSPENSION_BATTERY</item>
+        <item>SUSPENSION_BATTERY_FRONT</item>
+        <item>SUSPENSION_BATTERY_REAR</item>
+        <item>WKG_AVG</item>
+        <item>WKG_INT</item>
+        <item>GEAR_RATIO</item>
+      </string-array>
+
+    <string-array translatable="false" name="background_colors">
+        <item>NONE</item>
+        <item>TRANSPARENT</item>
+        <item>GREY</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>LIGHT_GREEN</item>
+        <item>YELLOW</item>
+        <item>SWEET</item>
+        <item>ORANGE</item>
+        <item>RED</item>
+        <item>DARK_RED</item>
+        <item>BROWN</item>
+        <item>PURPLE</item>
+    </string-array>
+
+    <string-array name="alert_type_description">
         <item>Time (min)</item>
         <item>Calories (kJ)</item>
         <item>Max power output</item>
         <item>Max hear rate</item>
         <item>Ch grams burned</item>
-       <!-- <item>Remaining W\' </item> -->
+        <item>Maximum gear</item>
+        <item>Minimum gear</item>
+        <item>Distance</item>
+        <item>Remaining %W\' </item>
+        <item>Walk-Run</item>
     </string-array>
 
-
+    <string-array name="alert_type_detail">
+        <item>Notifies every N minutes</item>
+        <item>Notifies when N kJ are burned</item>
+        <item>Triggers when power exceeds the threshold</item>
+        <item>Triggers when heart rate exceeds the threshold</item>
+        <item>Notifies when N grams of carbs are burned</item>
+        <item>Triggers when exceeding the configured maximum gear</item>
+        <item>Triggers when dropping below the configured minimum gear</item>
+        <item>Notifies every N km or when the target distance is reached</item>
+        <item>Triggers when remaining W′ balance drops below the percentage (W′ balance, not battery)</item>
+        <item>Lets you configure alerts to alternate walk and run intervals for running initiation</item>
+    </string-array>
 
     <string-array name="field_content_descriptions">
         <item>Empty</item>
@@ -18,7 +166,13 @@
         <item>Average Power</item>
         <item>Lap Power</item>
         <item>NP</item>
+        <item>% FTP</item>
+        <item>IF Lap</item>
+        <item>W/kg</item>
         <item>Torque</item>
+        <item>W\'</item>
+        <item>TSS</item>
+        <item>TSS HR</item>
         <item>kJoules</item>
         <item>Fat (g)</item>
         <item>Carbohydrates (g)</item>
@@ -27,18 +181,61 @@
         <item>HkE HR</item>
         <item>Average HR</item>
         <item>Lap HR</item>
+        <item>% HR Max</item>
         <item>Cadence</item>
         <item>Average Cadence</item>
         <item>Lap Cadence</item>
         <item>Distance</item>
+        <item>Odometer</item>
         <item>Dist.Remaining</item>
         <item>Speed</item>
         <item>Average Speed</item>
+        <item>Pace</item>
+        <item>Average Pace</item>
+        <item>Pace Lap</item>
+        <item>VAM</item>
+        <item>VAM-Wkg</item>
         <item>Elevation</item>
         <item>Elev.Remaining</item>
-        <item>Slope</item>
-
-
+        <item>HkE Grade</item>
+        <item>Power Balance</item>
+        <item>Right Smoothness</item>
+        <item>Left Smoothness</item>
+        <item>Right efectiveness</item>
+        <item>Left efectiveness</item>
+        <item>Front gear</item>
+        <item>Rear gear</item>
+        <item>Gear Front/Rear</item>
+        <item>Front teeth</item>
+        <item>Rear teeth</item>
+        <item>Front/Rear teeth</item>
+        <item>Battery FD</item>
+        <item>Battery RD</item>
+        <item>Battery AXS</item>
+        <item>Temperature</item>
+        <item>Headwind</item>
+        <item>Wind + speed</item>
+        <item>Wind direction</item>
+        <item>Front Tire PSI</item>
+        <item>Rear Tire PSI</item>
+        <item>Front Tire BAR</item>
+        <item>Rear Tire BAR</item>
+        <item>Compass</item>
+        <item>Fork</item>
+        <item>Rear</item>
+        <item>FA Mode</item>
+        <item>Effort</item>
+        <item>Bias</item>
+        <item>Fork LSC</item>
+        <item>Rear LSC</item>
+        <item>Fork Count</item>
+        <item>Rear Count</item>
+        <item>FA Battery</item>
+        <item>Fork Battery</item>
+        <item>Rear Battery</item>
+        <item>Average W/kg</item>
+        <item>Lap W/kg</item>
+        <item>Gear Ratio</item>
     </string-array>
 
     <string-array name="field_content_descriptions_abridged">
@@ -48,7 +245,13 @@
         <item>Av.Power</item>
         <item>Lap Power</item>
         <item>NP</item>
+        <item>%FTP</item>
+        <item>IF Lap</item>
+        <item>W/kg</item>
         <item>Torque</item>
+        <item>W\'</item>
+        <item>TSS</item>
+        <item>TSS HR</item>
         <item>kJoules</item>
         <item>Fat (g)</item>
         <item>Ch (g)</item>
@@ -57,19 +260,63 @@
         <item>HkE-HR</item>
         <item>Av.HR</item>
         <item>Lap HR</item>
+        <item>%HRM</item>
         <item>Cadence</item>
         <item>Av.Cad.</item>
         <item>Lap Cad.</item>
         <item>Distance</item>
+        <item>Odometer</item>
         <item>Dist.Rem.</item>
         <item>Speed</item>
         <item>Av.Speed</item>
+        <item>Pace</item>
+        <item>Av.Pace</item>
+        <item>PaceLap</item>
+        <item>VAM</item>
+        <item>VAM-Wkg</item>
         <item>Elevation</item>
         <item>Elev.Rem.</item>
-        <item>Slope</item>
-
-
+        <item>HkE Grade</item>
+        <item>Balance</item>
+        <item>Right Sms</item>
+        <item>Left Sms</item>
+        <item>Right Efs</item>
+        <item>Left Efs</item>
+        <item>Front Gr</item>
+        <item>Rear Gr</item>
+        <item>Gear F/R</item>
+        <item>F.Theeth</item>
+        <item>R.Theeth</item>
+        <item>F/R teeth</item>
+        <item>Battery FD</item>
+        <item>Battery RD</item>
+        <item>Battery AXS</item>
+        <item>Temp.</item>
+        <item>Headwind</item>
+        <item>Wind+speed</item>
+        <item>Wind dir.</item>
+        <item>Front PSI</item>
+        <item>Rear PSI</item>
+        <item>Front BAR</item>
+        <item>Rear BAR</item>
+        <item>Compass</item>
+        <item>Fork</item>
+        <item>Rear</item>
+        <item>FA Mode</item>
+        <item>Effort</item>
+        <item>Bias</item>
+        <item>Fork LSC</item>
+        <item>Rear LSC</item>
+        <item>Fork Cnt</item>
+        <item>Rear Cnt</item>
+        <item>FA Bat</item>
+        <item>Fork Bat</item>
+        <item>Rear Bat</item>
+        <item>Avg W/kg</item>
+        <item>Lap W/kg</item>
+        <item>Ratio</item>
     </string-array>
+
 
 
 </resources>
