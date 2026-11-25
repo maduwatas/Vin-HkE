@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Korean translation: only strings not yet present in the current Korean resources.
+         Translate or transliterate any visible terms you prefer; leave symbols, units,
+         brand names and format placeholders unchanged when appropriate.
+         The VinHkE maintainer will merge the selected translations. -->
+
+    <string name="app_name" translatable="false">Vin HkE</string>
+    <string name="web_vinapp" translatable="false">vinapp.es</string>
+    <string name="nick" translatable="false">Nick</string>
+    <string name="label_tss" translatable="false">TSS</string>
+    <string name="label_tssc" translatable="false">TSSC</string>
+    <string name="label_tsb" translatable="false">TSB</string>
+    <string name="label_ctl" translatable="false">CTL</string>
+    <string name="label_atl" translatable="false">ATL</string>
+    <string name="label_cil" translatable="false">CIL</string>
+    <string name="label_ftp" translatable="false">FTP (W)</string>
+    <string name="clip_emoji" translatable="false">📋</string>
+    <string name="save_emoji" translatable="false">💾</string>
+    <string name="bpm_emoji" translatable="false">💓</string>
+    <string name="label_cadence_units" translatable="false">rpm</string>
+    <string translatable="false" name="infinity">Ꝏ</string>
+    <string name="cadence_interval_0" translatable="false">⚙ %1$s &#10007; %2$d:%3$02d</string>
+    <string name="cadence_interval_1" translatable="false">⚙ %1$s &#10007; %2$d</string>
+    <string name="torque_interval_0" translatable="false">⛓ %1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
+    <string name="torque_interval_1" translatable="false">⛓ %1$s &#10007; %2$d&#10076;</string>
+    <string name="next_interval_0" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;%3$d&#x275E;</string>
+    <string name="next_interval_1" translatable="false">&#10140;%1$s &#10007; %2$d&#10076;</string>
+    <string name="nex_interval_2" translatable="false">&#10140;%1$s &#10007; %2$d&#x275E;</string>
+    <string name="new_record_message" translatable="false">%1$d W &#10007; %2$s\n</string>
+    <string name="pedaling_5050" translatable="false">50/50</string>
+    <string name="pedaling_100_percent" translatable="false">100%</string>
+    <string name="pedaling_0_percent" translatable="false">0%</string>
+</resources>
